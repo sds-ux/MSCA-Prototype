@@ -1,4 +1,3 @@
-
 <!doctype html>
 
 <!--[if lt IE 9]>
@@ -70,7 +69,7 @@
     
 
 
-	<script src="//assets.adobedtm.com/caacec67651710193d2331efef325107c23a0145/satelliteLib-78cf42deb149c9766cbaaa6151e252b9b67c0200.js"></script>
+	<script src="https://www.canada.ca/assets.adobedtm.com/caacec67651710193d2331efef325107c23a0145/satelliteLib-78cf42deb149c9766cbaaa6151e252b9b67c0200.js"></script>
 
 
 
@@ -81,26 +80,24 @@
 
 
 
-<link rel="stylesheet" href="/etc/designs/canada/wet-boew/css/wet-boew.min.css"/>
-<link rel="stylesheet" href="/etc/designs/canada/wet-boew/css/theme.min.css"/>
+<link rel="stylesheet" href="https://www.canada.ca/etc/designs/canada/wet-boew/css/wet-boew.min.css"/>
+<link rel="stylesheet" href="https://www.canada.ca/etc/designs/canada/wet-boew/css/theme.min.css"/>
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous"/>
 
 <!--[if gte IE 9 | !IE ]><!-->
-<link href="/etc/designs/canada/wet-boew/assets/favicon.ico" rel="icon" type="image/x-icon"/>
+<link href="https://www.canada.ca/etc/designs/canada/wet-boew/assets/favicon.ico" rel="icon" type="image/x-icon"/>
 <!--<![endif]-->
 
 <!--[if lt IE 9]>
-<link href="/etc/designs/canada/wet-boew/assets/favicon.ico" rel="shortcut icon" />
-<link rel="stylesheet" href="/etc/designs/canada/wet-boew/css/ie8-wet-boew.min.css" />
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-<script src="/etc/designs/canada/wet-boew/js/ie8-wet-boew.min.js"></script>
+<link href="https://www.canada.ca/etc/designs/canada/wet-boew/assets/favicon.ico" rel="shortcut icon" />
+<link rel="stylesheet" href="https://www.canada.ca/etc/designs/canada/wet-boew/css/ie8-wet-boew.min.css" />
+<script src="https://www.canada.ca/ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="https://www.canada.ca/etc/designs/canada/wet-boew/js/ie8-wet-boew.min.js"></script>
 <![endif]-->
 
-<noscript><link rel="stylesheet" href="/etc/designs/canada/wet-boew/css/noscript.min.css"/></noscript>
+<noscript><link rel="stylesheet" href="https://www.canada.ca/etc/designs/canada/wet-boew/css/noscript.min.css"/></noscript>
 <script>dataLayer = []; dataLayer1 = [];</script>
-
-                    <script>var w=window;if(w.performance||w.mozPerformance||w.msPerformance||w.webkitPerformance){var d=document;AKSB=w.AKSB||{},AKSB.q=AKSB.q||[],AKSB.mark=AKSB.mark||function(e,_){AKSB.q.push(["mark",e,_||(new Date).getTime()])},AKSB.measure=AKSB.measure||function(e,_,t){AKSB.q.push(["measure",e,_,t||(new Date).getTime()])},AKSB.done=AKSB.done||function(e){AKSB.q.push(["done",e])},AKSB.mark("firstbyte",(new Date).getTime()),AKSB.prof={custid:"368225",ustr:"",originlat:"0",clientrtt:"67",ghostip:"23.36.1.29",ipv6:false,pct:"10",clientip:"198.103.221.51",requestid:"a4317d43",region:"33993",protocol:"h2",blver:14,akM:"dscb",akN:"ae",akTT:"O",akTX:"1",akTI:"a4317d43",ai:"231651",ra:"false",pmgn:"canadaRUM",pmgi:"",pmp:"",qc:""},function(e){var _=d.createElement("script");_.async="async",_.src=e;var t=d.getElementsByTagName("script"),t=t[t.length-1];t.parentNode.insertBefore(_,t)}(("https:"===d.location.protocol?"https:":"http:")+"//ds-aksb-a.akamaihd.net/aksb.min.js")}</script>
-                    </head>
+</head>
 
 <body vocab="http://schema.org/" typeof="WebPage">
 
@@ -135,7 +132,7 @@
         <div class="col-md-12">
             <ul class="list-inline margin-bottom-none">
                 <li>
-                    <a lang="fr" href="/fr/emploi-developpement-social/services/mon-dossier/comment-acceder.html">
+                    <a lang="fr" href="https://www.canada.ca/fr/emploi-developpement-social/services/mon-dossier/comment-acceder.html">
                         Fran&ccedil;ais
                         
                     </a>
@@ -148,12 +145,12 @@
 </section>
 		<div class="row">
 			<div class="brand col-xs-5 col-md-4" property="publisher" typeof="GovernmentOrganization">
-				<a href="/en.html" property="url">
-                    <img src="/etc/designs/canada/wet-boew/assets/sig-blk-en.svg" alt="" property="logo">
+				<a href="https://www.canada.ca/en.html" property="url">
+                    <img src="https://www.canada.ca/etc/designs/canada/wet-boew/assets/sig-blk-en.svg" alt="" property="logo">
                     <span class="wb-inv" property="name"> Government of Canada</span>
                 </a>
                 <meta property="areaServed" typeof="Country" content="Canada"/>
-				<link property="logo" href="/etc/designs/canada/wet-boew/assets/wmms-blk.svg"/>
+				<link property="logo" href="https://www.canada.ca/etc/designs/canada/wet-boew/assets/wmms-blk.svg"/>
 			</div>
 			<section id="wb-srch" class="col-lg-8 text-right">
 				<h2>Search</h2>
@@ -211,15 +208,15 @@
 	
 	
 		<nav id="wb-bc" property="breadcrumb"><h2 class="wb-inv">You are here:</h2><div class="container"><ol class="breadcrumb">
-<li><a href='/en.html'>Home</a></li>
-<li><a href='/en/employment-social-development.html'>Employment and Social Development Canada</a></li>
-<li><a href='/en/employment-social-development/services/my-account.html'>My Service Canada Account (MSCA): Overview</a></li>
+<li><a href='https://www.canada.ca/en.html'>Home</a></li>
+<li><a href='https://www.canada.ca/en/employment-social-development.html'>Employment and Social Development Canada</a></li>
+<li><a href='https://www.canada.ca/en/employment-social-development/services/my-account.html'>My Service Canada Account (MSCA): Overview</a></li>
 </ol></div></nav>
 
 
 
 	
-	<div data-ajax-replace="/bin/canada/alert/messages.en.html" class="original"></div>
+	<div data-ajax-replace="https://www.canada.ca/bin/canada/alert/messages.en.html" class="original"></div>
 
 </header>
 </div>
@@ -241,7 +238,7 @@
 
     <h1 property="name" id="wb-cont" dir="ltr">
 My Service Canada Account (MSCA): How to access MSCA </h1>
-<p class="gc-byline"><strong>From: <a href="/en/employment-social-development.html">Employment and Social Development Canada</a></strong></p>
+<p class="gc-byline"><strong>From: <a href="https://www.canada.ca/en/employment-social-development.html">Employment and Social Development Canada</a></strong></p>
 
 
 </div>
@@ -333,7 +330,7 @@ My Service Canada Account (MSCA): How to access MSCA </h1>
 
     
     <div class="alert alert-info">
-<p><strong>Attention:</strong> If you're an Alberta resident, you can now use your verified <a href="/en/employment-social-development/services/my-account/privacy-notice-term-conditions.html">MyAlberta Digital ID</a> to register and sign in to My Service Canada Account.</p>	
+<p><strong>Attention:</strong> If you're an Alberta resident, you can now use your verified <a href="https://www.canada.ca/en/employment-social-development/services/my-account/privacy-notice-term-conditions.html">MyAlberta Digital ID</a> to register and sign in to My Service Canada Account.</p>	
 </div>	
 
 
@@ -345,19 +342,19 @@ My Service Canada Account (MSCA): How to access MSCA </h1>
     <div class="gc-stp-stp">
 <div class="row">
 <ul class="toc lst-spcd col-md-12">
-<li class="col-md-4 col-sm-6"><a class="list-group-item" href="/en/employment-social-development/services/my-account.html">1. Overview</a></li>
-<li class="col-md-4 col-sm-6"><a class="list-group-item" href="/en/employment-social-development/services/my-account/using.html">2. Using your MSCA</a></li>
+<li class="col-md-4 col-sm-6"><a class="list-group-item" href="https://htmlpreview.github.io/?https://github.com/eclivingstone23/MSCA-Prototype/blob/master/scenarioA/services/my-account/overview.html">1. Overview</a></li>
+<li class="col-md-4 col-sm-6"><a class="list-group-item" href="https://htmlpreview.github.io/?https://github.com/eclivingstone23/MSCA-Prototype/blob/master/scenarioA/services/my-account/using-your-msca.html">2. Using your MSCA</a></li>
 <li class="col-md-4 col-sm-6 clr-lft-sm"><a class="list-group-item active">3. How to access MSCA</a></li>
-<!--<li class="col-md-4 col-sm-6 clr-lft-sm"><a class="list-group-item" href="/content/canadasite/en/employment-social-development/services/my-account/how-to-access.html">3. How to access MSCA</a></li>-->
-<li class="col-md-4 col-sm-6 clr-lft-md clr-lft-lg"><a class="list-group-item" href="/en/employment-social-development/services/my-account/access.html">4. Access MSCA</a></li>
-<li class="col-md-4 col-sm-6 clr-lft-sm"><a class="list-group-item" href="/en/employment-social-development/services/my-account/contact-us.html">Contact us</a></li>
+<!--<li class="col-md-4 col-sm-6 clr-lft-sm"><a class="list-group-item" href="https://htmlpreview.github.io/?https://github.com/eclivingstone23/MSCA-Prototype/blob/master/scenarioA/services/my-account/how-to-access-msca.html">3. How to access MSCA</a></li>-->
+<li class="col-md-4 col-sm-6 clr-lft-md clr-lft-lg"><a class="list-group-item" href="https://htmlpreview.github.io/?https://github.com/eclivingstone23/MSCA-Prototype/blob/master/scenarioA/services/my-account/access-msca.html">4. Access MSCA</a></li>
+<li class="col-md-4 col-sm-6 clr-lft-sm"><a class="list-group-item" href="https://htmlpreview.github.io/?https://github.com/eclivingstone23/MSCA-Prototype/blob/master/scenarioA/services/my-account/contact-us.html">Contact us</a></li>
 </ul>
 </div>
 </div>
 <section>
 <h2 class="wb-inv">3. How to access MSCA</h2>
 
-<p>To access MSCA, you must first request a Personal Access Code (PAC). If you've applied for or are receiving Employment Insurance (EI), Canada Pension Plan (CPP), or Old Age Security (OAS), an access code may have already been issued for you  (<a href="/en/employment-social-development/services/my-account/find-pac.html">need help finding it?</a>).</p>	
+<p>To access MSCA, you must first request a Personal Access Code (PAC). If you've applied for or are receiving Employment Insurance (EI), Canada Pension Plan (CPP), or Old Age Security (OAS), an access code may have already been issued for you  (<a href="https://www.canada.ca/en/employment-social-development/services/my-account/find-pac.html">need help finding it?</a>).</p>	
 
 <p>A PAC is not required for Alberta residents using a verified MyAlberta Digital ID.</p>	
 	
@@ -376,27 +373,27 @@ My Service Canada Account (MSCA): How to access MSCA </h1>
 <li class="col-sm-4">
 	<div class="row">
 		<div class="col-sm-8 col-sm-offset-2">
-		<a class="center-block" href="#a3-1"><img class="img-responsive center-block" src="/content/dam/esdc-edsc/images/services/msca-mdsc/msca-u214.png" alt="">Gather your personal documents and information</a>
+		<a class="center-block" href="#a3-1"><img class="img-responsive center-block" src="https://www.canada.ca/content/dam/esdc-edsc/images/services/msca-mdsc/msca-u214.png" alt="">Gather your personal documents and information</a>
 		</div>
 		<div class="col-sm-2">
-		<img class="img-responsive center-block" src="/content/dam/esdc-edsc/images/services/msca-mdsc/msca-u212.png" alt="">
+		<img class="img-responsive center-block" src="https://www.canada.ca/content/dam/esdc-edsc/images/services/msca-mdsc/msca-u212.png" alt="">
 		</div>
 	</div>	
 </li>
 <li class="col-sm-4">
 	<div class="row">
 		<div class="col-sm-8 col-sm-offset-2">
-		<a class="center-block" href="#a3-2"><img class="img-responsive center-block" src="/content/dam/esdc-edsc/images/services/msca-mdsc/msca-letter-icon.png" alt="">Request a PAC</a>
+		<a class="center-block" href="#a3-2"><img class="img-responsive center-block" src="https://www.canada.ca/content/dam/esdc-edsc/images/services/msca-mdsc/msca-letter-icon.png" alt="">Request a PAC</a>
 		</div>
 		<div class="col-sm-2">
-		<img class="img-responsive center-block" src="/content/dam/esdc-edsc/images/services/msca-mdsc/msca-u212.png" alt="">
+		<img class="img-responsive center-block" src="https://www.canada.ca/content/dam/esdc-edsc/images/services/msca-mdsc/msca-u212.png" alt="">
 		</div>
 	</div>	
 </li>	
 <li class="col-sm-4">
 	<div class="row">
 		<div class="col-sm-8 col-sm-offset-2">
-		<a class="center-block" href="#a3-3"><img class="img-responsive center-block" src="/content/dam/esdc-edsc/images/services/msca-mdsc/msca-u213.png" alt="">Register to MSCA</a>
+		<a class="center-block" href="#a3-3"><img class="img-responsive center-block" src="https://www.canada.ca/content/dam/esdc-edsc/images/services/msca-mdsc/msca-u213.png" alt="">Register to MSCA</a>
 		</div>
 	</div>		
 </li>		
@@ -481,7 +478,7 @@ My Service Canada Account (MSCA): How to access MSCA </h1>
 <h5>Online</h5>	
 <p>This online service allows you to request a personal access code (PAC). Once you have made your PAC request, we will mail it to you at the address we have on file (it will arrive in the mail within 5 to10 business days).</p>
 
-<a class="btn btn-primary" href="/en/employment-social-development/services/my-account/request-pac.html">Request a PAC online</a>
+<a class="btn btn-primary" href="https://htmlpreview.github.io/?https://github.com/eclivingstone23/MSCA-Prototype/blob/master/scenarioA/services/my-account/request-pac.html">Request a PAC online</a>
 </section>
 
 <section>
@@ -489,7 +486,7 @@ My Service Canada Account (MSCA): How to access MSCA </h1>
 
 <p>By requesting a PAC in person, on site agents will help you receive your PAC immediately and answer any questions you may have.</p>	
 	
-<a class="btn btn-primary" href="http://www.servicecanada.gc.ca/tbsc-fsco/sc-hme.jsp?lang=eng">Find a Service Canada Office</a>
+<a class="btn btn-primary" href="https://htmlpreview.github.io/?https://github.com/eclivingstone23/MSCA-Prototype/blob/master/scenarioA/services/my-account/find-service-canada-office.html">Find a Service Canada Office</a>
 </section>
 <section>
 <h5>By phone</h5>
@@ -563,7 +560,7 @@ My Service Canada Account (MSCA): How to access MSCA </h1>
 	
 </details>	
 	
-<a class="btn btn-primary" href="/en/employment-social-development/services/my-account/access.html">Register your MSCA</a>		
+<a class="btn btn-primary" href="https://htmlpreview.github.io/?https://github.com/eclivingstone23/MSCA-Prototype/blob/master/scenarioA/services/my-account/access-msca.html">Register your MSCA</a>		
 	
 </section>	
 
@@ -574,20 +571,20 @@ My Service Canada Account (MSCA): How to access MSCA </h1>
 <nav role="navigation" class="mrgn-bttm-lg">
 <h3 class="wb-inv">Document navigation</h3>
 <ul class="pager">
-<li class="previous"><a href="/en/employment-social-development/services/my-account/using.html" rel="prev">Previous<span class="wb-inv">: 2. Using your MSCA</span></a></li>	
+<li class="previous"><a href="https://www.canada.ca/en/employment-social-development/services/my-account/using.html" rel="prev">Previous<span class="wb-inv">: 2. Using your MSCA</span></a></li>	
 <!--	
-<li class="previous"><a href="/content/canadasite/en/employment-social-development/services/my-account.html" rel="prev">Previous<span class="wb-inv">: 1. Overview</span></a></li>	
-<li class="previous"><a href="/content/canadasite/en/employment-social-development/services/my-account/using.html" rel="prev">Previous<span class="wb-inv">: 2. Using your MSCA</span></a></li>	
-<li class="previous"><a href="/content/canadasite/en/employment-social-development/services/my-account/how-to-access.html" rel="prev">Previous<span class="wb-inv">: 3. How to access MSCA</span></a></li>
-<li class="previous"><a href="/content/canadasite/en/employment-social-development/services/my-account/access.html" rel="prev">Previous<span class="wb-inv">: 4. Access MSCA</span></a></li>
+<li class="previous"><a href="https://www.canada.ca/content/canadasite/en/employment-social-development/services/my-account.html" rel="prev">Previous<span class="wb-inv">: 1. Overview</span></a></li>	
+<li class="previous"><a href="https://www.canada.ca/content/canadasite/en/employment-social-development/services/my-account/using.html" rel="prev">Previous<span class="wb-inv">: 2. Using your MSCA</span></a></li>	
+<li class="previous"><a href="https://www.canada.ca/content/canadasite/en/employment-social-development/services/my-account/how-to-access.html" rel="prev">Previous<span class="wb-inv">: 3. How to access MSCA</span></a></li>
+<li class="previous"><a href="https://www.canada.ca/content/canadasite/en/employment-social-development/services/my-account/access.html" rel="prev">Previous<span class="wb-inv">: 4. Access MSCA</span></a></li>
 -->
 	
-<li class="next"><a href="/en/employment-social-development/services/my-account/access.html" rel="next">Next<span class="wb-inv">: 4. Access MSCA</span></a></li>
+<li class="next"><a href="https://www.canada.ca/en/employment-social-development/services/my-account/access.html" rel="next">Next<span class="wb-inv">: 4. Access MSCA</span></a></li>
 <!--
-<li class="next"><a href="/content/canadasite/en/employment-social-development/services/my-account/using.html" rel="next">Next<span class="wb-inv">: 2. Using your MSCA</span></a></li>
-<li class="next"><a href="/content/canadasite/en/employment-social-development/services/my-account/how-to-access.html" rel="next">Next<span class="wb-inv">: 3. How to access MSCA</span></a></li>
-<li class="next"><a href="/content/canadasite/en/employment-social-development/services/my-account/access.html" rel="next">Next<span class="wb-inv">: 4. Access MSCA</span></a></li>
-<li class="next"><a href="/content/canadasite/en/employment-social-development/services/my-account/contact-us.html" rel="next">Next<span class="wb-inv">: Contact us</span></a></li>	
+<li class="next"><a href="https://www.canada.ca/content/canadasite/en/employment-social-development/services/my-account/using.html" rel="next">Next<span class="wb-inv">: 2. Using your MSCA</span></a></li>
+<li class="next"><a href="https://www.canada.ca/content/canadasite/en/employment-social-development/services/my-account/how-to-access.html" rel="next">Next<span class="wb-inv">: 3. How to access MSCA</span></a></li>
+<li class="next"><a href="https://www.canada.ca/content/canadasite/en/employment-social-development/services/my-account/access.html" rel="next">Next<span class="wb-inv">: 4. Access MSCA</span></a></li>
+<li class="next"><a href="https://www.canada.ca/content/canadasite/en/employment-social-development/services/my-account/contact-us.html" rel="next">Next<span class="wb-inv">: Contact us</span></a></li>	
 -->
 </ul>
 </nav>	
@@ -609,7 +606,7 @@ My Service Canada Account (MSCA): How to access MSCA </h1>
     <div class="gc-rprt-prblm-frm gc-rprt-prblm-tggl">			
 			<form id="gc-rprt-prblm-form" action="/gc/services/generateemail" method="post">
             <input type="hidden" name="pageTitle" value="My Service Canada Account (MSCA): How to access MSCA ">
-            <input type="hidden" name="submissionPage" value="/content/canadasite/en/employment-social-development/services/my-account/how-to-access.html">
+            <input type="hidden" name="submissionPage" value="https://www.canada.ca/content/canadasite/en/employment-social-development/services/my-account/how-to-access.html">
             <input type="hidden" name="lang" value="en">
             <input type="hidden" name="pageOwner" value="gc:institutions/department-of-employment-and-social-development">
             <input id="emailTemplate" name="emailTemplate" type="hidden" value="reportaproblem/rap"> 
@@ -736,32 +733,32 @@ My Service Canada Account (MSCA): How to access MSCA </h1>
             <ul class="list-unstyled colcount-sm-2 colcount-md-3">
                 
                      
-                         <li><a href="/en/contact.html">Contact us</a></li>
+                         <li><a href="https://www.canada.ca/en/contact.html">Contact us</a></li>
                      
                 
                 
                     
-                        <li><a href="/en/government/dept.html">Departments and agencies</a></li>
+                        <li><a href="https://www.canada.ca/en/government/dept.html">Departments and agencies</a></li>
                     
                 
                 
                     
-                        <li><a href="/en/government/publicservice.html">Public service and military</a></li>
+                        <li><a href="https://www.canada.ca/en/government/publicservice.html">Public service and military</a></li>
                     
                 
                 
                     
-                        <li><a href="/en/news.html">News</a></li>
+                        <li><a href="https://www.canada.ca/en/news.html">News</a></li>
                     
                 
                 
                     
-                        <li><a href="/en/government/system/laws.html">Treaties, laws and regulations</a></li>
+                        <li><a href="https://www.canada.ca/en/government/system/laws.html">Treaties, laws and regulations</a></li>
                     
                 
                 
                     
-                        <li><a href="/en/transparency/reporting.html">Government-wide reporting</a></li>
+                        <li><a href="https://www.canada.ca/en/transparency/reporting.html">Government-wide reporting</a></li>
                     
                 
                 
@@ -771,7 +768,7 @@ My Service Canada Account (MSCA): How to access MSCA </h1>
                 
                 
                     
-                        <li><a href="/en/government/system.html">About government</a></li>
+                        <li><a href="https://www.canada.ca/en/government/system.html">About government</a></li>
                     
                 
                 
@@ -790,27 +787,27 @@ My Service Canada Account (MSCA): How to access MSCA </h1>
                         <ul>
                             
                                 
-                                    <li><a href="/en/social.html">Social media</a></li>
+                                    <li><a href="https://www.canada.ca/en/social.html">Social media</a></li>
                                 
                             
                             
                                 
-                                    <li><a href="/en/mobile.html">Mobile applications</a></li>
+                                    <li><a href="https://www.canada.ca/en/mobile.html">Mobile applications</a></li>
                                 
                             
                             
                                 
-                                    <li><a href="/en/government/about.html">About Canada.ca</a></li>
+                                    <li><a href="https://www.canada.ca/en/government/about.html">About Canada.ca</a></li>
                                 
                             
                             
                                 
-                                    <li><a href="/en/transparency/terms.html">Terms and conditions</a></li>
+                                    <li><a href="https://www.canada.cahttps://www.canada.ca/en/transparency/terms.html">Terms and conditions</a></li>
                                 
                             
                             
                                 
-                                    <li><a href="/en/transparency/privacy.html">Privacy</a></li>
+                                    <li><a href="https://www.canada.ca/en/transparency/privacy.html">Privacy</a></li>
                                 
                             
                             
@@ -822,7 +819,7 @@ My Service Canada Account (MSCA): How to access MSCA </h1>
                         <a href="#wb-cont">Top of page <span class="glyphicon glyphicon-chevron-up"></span></a>
                     </div>
                     <div class="col-xs-6 col-md-2 text-right">
-                        <img src="/etc/designs/canada/wet-boew/assets/wmms-blk.svg" alt="Symbol of the Government of Canada"/>
+                        <img src="https://www.canada.ca/etc/designs/canada/wet-boew/assets/wmms-blk.svg" alt="Symbol of the Government of Canada"/>
                     </div>
                 </div>
             </div>
@@ -853,22 +850,22 @@ My Service Canada Account (MSCA): How to access MSCA </h1>
 
 
     
-<script type="text/javascript" src="/etc/clientlibs/granite/jquery.min.js"></script>
-<script type="text/javascript" src="/etc/clientlibs/granite/utils.min.js"></script>
-<script type="text/javascript" src="/etc/designs/canada/clientlib-publish.min.js"></script>
+<script type="text/javascript" src="https://www.canada.ca/etc/clientlibs/granite/jquery.min.js"></script>
+<script type="text/javascript" src="https://www.canada.ca/etc/clientlibs/granite/utils.min.js"></script>
+<script type="text/javascript" src="https://www.canada.ca/etc/designs/canada/clientlib-publish.min.js"></script>
 
 
 
 
 <!--[if gte IE 9 | !IE ]><!-->
-<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-<script src="/etc/designs/canada/wet-boew/js/wet-boew.min.js"></script>
+<script src="https://www.canada.ca/ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script src="https://www.canada.ca/etc/designs/canada/wet-boew/js/wet-boew.min.js"></script>
 <!--<![endif]-->
 
 <!--[if lt IE 9]>
-<script src="/etc/designs/canada/wet-boew/js/ie8-wet-boew2.min.js"></script>
+<script src="https://www.canada.ca/etc/designs/canada/wet-boew/js/ie8-wet-boew2.min.js"></script>
 <![endif]-->
 
-<script src="/etc/designs/canada/wet-boew/js/theme.min.js"></script>
+<script src="https://www.canada.ca/etc/designs/canada/wet-boew/js/theme.min.js"></script>
 </body>
 </html>
