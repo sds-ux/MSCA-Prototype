@@ -82,7 +82,6 @@
     text-align: left;
 }
 .large-btn b {
-
     display: inline-block;
     width: 85%;
     text-align: center;
@@ -279,9 +278,10 @@ a.btn-blue:hover, a.btn-blue:active, a.btn-blue:focus {
     </div>
     <div class="col-xs-12 col-md-9">
       <p>This page offers you, the EI client, access to information and self-services on your currently active and past EI claims. See important messages, the current status of your claim and us the “Alert Me” optional service to stay on top of all developments. Payment details on currently and past terminated claims include gross/net amounts, dates of payment and type of benefit received. You can access your electronic T4E and Records of Employment a change your mailing address, telephone number and Direct Deposit info within our extended operation hours (see help text for hours).</p>
-
-
-            <div class="mrgn-tp-lg header-bg">
+      <section>
+        <div class="panel panel-default">
+          <div class="panel-body">
+            <div class="mrgn-tp-md header-bg">
               <h2 id="a1-1" class="mrgn-tp-0">Information on your latest EI claim&nbsp;</h2>
               <div class="brdr-bttm-fade"></div>
             </div>
@@ -290,10 +290,13 @@ a.btn-blue:hover, a.btn-blue:active, a.btn-blue:focus {
             <button onclick="window.location.href = '/MSCA-Prototype/scenarioA/services/my-account/MSCA/EI/latest-claim-status.html';" type="button" class="btn btn-default">View my status and correspondence (Alert me)</button>
             <button onclick="window.location.href = '/MSCA-Prototype/scenarioA/services/my-account/MSCA/EI/latest-claim-details.html';" type="button" class="btn btn-default">Latest claim</button>
             <button onclick="window.location.href = '/MSCA-Prototype/scenarioA/services/my-account/MSCA/EI/EI-payment-page.html';" type="button" class="btn btn-default">Payment Information</button>
-
-		  
-     
-            <div class="mrgn-tp-lg header-bg">
+          </div>
+        </div>
+      </section>
+      <section>
+        <div class="panel panel-default">
+          <div class="panel-body">
+            <div class="mrgn-tp-md header-bg">
               <h2 id="a1-2" class="mrgn-tp-0">Personal information</h2>
               <div class="brdr-bttm-fade"></div>
             </div>
@@ -307,19 +310,24 @@ a.btn-blue:hover, a.btn-blue:active, a.btn-blue:focus {
             <button onclick="window.location.href = '/MSCA-Prototype/scenarioA/services/my-account/MSCA/EI/personal-information/address-telephone.html';" type="button" class="btn btn-default">Mailing address and telephone number</button>
             <button onclick="window.location.href = '/MSCA-Prototype/scenarioA/services/my-account/MSCA/EI/personal-information/direct-deposit.html';" type="button" class="btn btn-default">Direct Deposit (EI)</button>
             <button onclick="window.location.href = '/MSCA-Prototype/scenarioA/services/my-account/MSCA/EI/personal-information/language.html';" type="button" class="btn btn-default">Preferred language communications</button>
- 
+          </div>
+        </div>
+      </section>
       
-  
-			<div class="mrgn-tp-lg header-bg">
+      <div class="panel panel-default">
+        <div class="panel-body">
+			<div class="mrgn-tp-md header-bg">
               <h2 id="a1-3" class="mrgn-tp-0">Records of Employment&nbsp;</h2>
               <div class="brdr-bttm-fade"></div>
             </div>
             <br />
           <p>Allows you to view and print ROEs submitted electronically by your employer during the last seven years. It also provides some information on ROEs that were submitted in paper format within the last seven years.</p>
           <button onclick="window.location.href = '/MSCA-Prototype/scenarioA/services/my-account/MSCA/EI/records-of-employment.html';" type="button" class="btn btn-default">Records of Employment</button>
-    
-		
-			<div class="mrgn-tp-lg header-bg">
+        </div>
+      </div>
+      <div class="panel panel-default">
+        <div class="panel-body">
+			<div class="mrgn-tp-md header-bg">
               <h2 id="a1-4" class="mrgn-tp-0">Tax information</h2>
               <div class="brdr-bttm-fade"></div>
             </div>
@@ -327,52 +335,63 @@ a.btn-blue:hover, a.btn-blue:active, a.btn-blue:focus {
           <p>The Tax slips T4E button Allows you to view and print T4Es for the current year and for the past six years if you received EI benefits. The Tax slip mailing options button allows you to suppress your mailed paper copy. </p>
           <button onclick="window.location.href = '/MSCA-Prototype/scenarioA/services/my-account/MSCA/EI/Tax_Slips/Tax_Slips_T4E.html';" type="button" class="btn btn-default">Tax slips (T4E)</button>
           <button onclick="window.location.href = '/MSCA-Prototype/scenarioA/services/my-account/MSCA/EI/Tax_Slips/Tax-Slips-Mailing.html';" type="button" class="btn btn-default">Tax slip mailing options</button>
-       
-		
-			<div class="mrgn-tp-lg header-bg">
+        </div>
+      </div>
+      <div class="panel panel-default">
+        <div class="panel-body">
+			<div class="mrgn-tp-md header-bg">
               <h2 id="a1-5" class="mrgn-tp-0">Past Claims</h2>
               <div class="brdr-bttm-fade"></div>
             </div>
             <br />
           <p>If applicable, this page displays a list of your past EI claims. Choosing a particular claim will provide you with specific information on that past claim including past claim payment details. </p>
           <button onclick="window.location.href = '/MSCA-Prototype/scenarioA/services/my-account/MSCA/EI/past-claims.html';" type="button" class="btn btn-default">Past claim(s)</button>
-      
-		
-			<div class="mrgn-tp-lg header-bg">
+        </div>
+      </div>
+      <div class="panel panel-default">
+        <div class="panel-body">
+			<div class="mrgn-tp-md header-bg">
               <h2 id="a1-6" class="mrgn-tp-0">eForms</h2>
               <div class="brdr-bttm-fade"></div>
             </div>
             <br />
           <p>If you have an active EI claim and depending on the type of benefits you are receiving this service will display eForms which allow you to submit information to your claim electronically. eForms will only be displayed if you are on an active claim and you are receiving benefits to which these eForms apply. Note that eForms will not be displayed if you do not have an active EI claim or if these eForms do not apply to the type of benefits you are receiving (see the Help text).</p>
           <button onclick="window.location.href = '/MSCA-Prototype/scenarioA/services/my-account/MSCA/EI/eForm/eForm-PNS.html';" type="button" class="btn btn-default">Provide new information regarding my claim</button>
-   
-		
-			<div class="mrgn-tp-lg header-bg">
+        </div>
+      </div>
+      <div class="panel panel-default">
+        <div class="panel-body">
+			<div class="mrgn-tp-md header-bg">
               <h2 id="a1-7" class="mrgn-tp-0">Self-employed</h2>
               <div class="brdr-bttm-fade"></div>
             </div>
             <br />
           <p>Self-employed Canadians can access Employment Insurance (EI) special benefits by entering into an agreement, or registering, with the Canada Employment Insurance Commission. </p>
           <button onclick="window.location.href = '/MSCA-Prototype/scenarioA/services/my-account/MSCA/EI/self-employed.html';" type="button" class="btn btn-default">Self-employment Agreement, Register and/or status </button>
-   
-		
-			<div class="mrgn-tp-lg header-bg">
+        </div>
+      </div>
+      <div class="panel panel-default">
+        <div class="panel-body">
+			<div class="mrgn-tp-md header-bg">
               <h2 id="a1-8" class="mrgn-tp-0">Province of residence</h2>
               <div class="brdr-bttm-fade"></div>
             </div>
             <br />
           <p>Allows you to select the specific Province in which you reside and are claiming EI benefits. Selecting the c orrect Province ensures that you can access your EI information. </p>
           <button onclick="window.location.href = '/MSCA-Prototype/scenarioA/services/my-account/MSCA/EI/province.html';" type="button" class="btn btn-default">Province of residence</button>
-    
-		
-			<div class="mrgn-tp-lg header-bg">
+        </div>
+      </div>
+      <div class="panel panel-default">
+        <div class="panel-body">
+			<div class="mrgn-tp-md header-bg">
               <h2 id="a1-9" class="mrgn-tp-0">Mistakes can Happen</h2>
               <div class="brdr-bttm-fade"></div>
             </div>
             <br />
           <p>Information on how to correct past mistakes.</p>
           <button onclick="window.location.href = '/MSCA-Prototype/scenarioA/services/my-account/MSCA/EI/eForm/mistakes-can-happen.html';" type="button" class="btn btn-default">Mistakes can happen</button>
-<br />
+        </div>
+      </div>
     </div>
   </div>
   </section>
