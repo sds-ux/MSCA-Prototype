@@ -52,6 +52,97 @@
 	background-color: #FFF
 }
 </style>
+	<style type="text/css">
+.orange-bg {
+    background: linear-gradient(#f68b1f, #f89736);
+}
+.blue-bg {
+    background-color: #11409F;
+}
+.header-bg {
+    line-height: normal;
+    background: linear-gradient(to right, #ddd 50%, #fff 75%, #fff);
+}
+.header-bg .brdr-bttm-fade {
+    width: 100%;
+    height: 4px;
+    background: linear-gradient(to right, #26374a 50%, #fff 75%, #fff);
+}
+.header-bg h2 {
+    background: linear-gradient(297.5deg, transparent, transparent 25px, white 26px, white 31px, #26374a 32px, #26374a);
+    color: white;
+    display: inline-block;
+    margin: 0px;
+    padding: 5px 30px 5px 15px;
+    min-width: 300px;
+    font-size: 1.3em;
+}
+.large-btn {
+    width: 85%;
+    text-align: left;
+}
+.large-btn b {
+
+    display: inline-block;
+    width: 85%;
+    text-align: center;
+}
+.large-btn img {
+    display: inline-block;
+    width: 10%;
+    margin-left: 3%;
+}
+a.btn-green:hover, a.btn-purple:hover, a.btn-blue:hover {
+    color: white;
+}
+a.btn-green:link, a.btn-green:visited, a.btn-green:hover, a.btn-green:active, a.btn-purple:link, a.btn-purple:visited, a.btn-purple:hover, a.btn-purple:active, a.btn-blue:link, a.btn-blue:visited, a.btn-blue:hover, a.btn-blue:active {
+    color: white;
+    padding-left: 5px;
+}
+a.btn-green {
+    background: #444;
+}
+a.btn-green:hover, a.btn-green:active {
+    background: #787878;
+}
+a.btn-purple {
+    background: #32002A;
+}
+a.btn-purple:hover, a.btn-purple:active {
+    background: #4A0B38;
+}
+a.btn-blue:link, a.btn-blue:visited {
+    background: #283a7b;
+}
+a.btn-blue:hover, a.btn-blue:active, a.btn-blue:focus {
+    background: #26374a;
+}
+	/*
+	
+		
+	a.btn-green {
+		background: #000000;
+	}
+	a.btn-green:hover, a.btn-green:active {
+		background: #787878;
+	}
+	
+	
+	a.btn-purple {
+		background: #32002A;
+	}
+	a.btn-purple:hover, a.btn-purple:active {
+		background: #4A0B38;
+	}
+	
+	
+	a.btn-blue {
+		background: #26374a;
+	}
+	a.btn-blue:hover, a.btn-blue:active {
+		background: #26374a;
+	}*/
+</style>
 </head>
 
 <body vocab="http://schema.org/" typeof="WebPage">
@@ -193,7 +284,37 @@
     <div class="col-xs-12 col-md-9">
       <p>This page offers you, the EI client, access to information and self-services on your currently active and past EI claims. See important messages, the current status of your claim and us the “Alert Me” optional service to stay on top of all developments. Payment details on currently and past terminated claims include gross/net amounts, dates of payment and type of benefit received. You can access your electronic T4E and Records of Employment a change your mailing address, telephone number and Direct Deposit info within our extended operation hours (see help text for hours).</p> 
 		
-      <div class="panel panel-default">
+		<section>
+         <div class="mrgn-tp-lg header-bg">
+      <h2>Information on your latest EI claim</h2>
+      <div class="brdr-bttm-fade"></div>
+    </div>
+	  <br />
+		<p>Choose the “View my status and correspondence (Alert Me)” button to see your claim status, messages sent to you on your active and past claims (to Dec 2017) and subscribe to Alert Me service for email alerts.  If you have an active claim, the “Latest Claim” button shows the condition of your claim as of today including; start date of claim, weekly benefit rate, numbers of weeks of benefit paid, type of benefits being claimed etc. The “Payment information” button provides specific information on payment and non-payment details and your declarations for each week of EI benefits that you have claimed. </p>
+		<button onclick="window.location.href = '/MSCA-Prototype/scenarioA/services/my-account/MSCA/EI/latest-claim-status.html';" type="button" class="btn btn-default">View my status and correspondence (Alert me)</button>
+        <button onclick="window.location.href = '/MSCA-Prototype/scenarioA/services/my-account/MSCA/EI/latest-claim-details.html';" type="button" class="btn btn-default">Latest claim</button>
+        <button onclick="window.location.href = '/MSCA-Prototype/scenarioA/services/my-account/MSCA/EI/EI-payment-page.html';" type="button" class="btn btn-default">Payment Information</button>
+		</section>
+		
+		<section>
+         <div class="mrgn-tp-lg header-bg">
+      <h2>Personal information</h2>
+      <div class="brdr-bttm-fade"></div>
+    </div>
+	  <br />
+		<p>The  Personal information section allows you to view or modify your mailing address,  telephone number, direct deposit information and preferred language of service  currently on file.</p>
+		<details>
+			<summary>Service times for your Province or Territory</summary>
+			<p>Info to be added.</p>
+			</details>
+			<br />
+          <button onclick="window.location.href = '/MSCA-Prototype/scenarioA/services/my-account/MSCA/EI/personal-information/address-telephone.html';" type="button" class="btn btn-default">Mailing address and telephone number</button>
+          <button onclick="window.location.href = '/MSCA-Prototype/scenarioA/services/my-account/MSCA/EI/personal-information/direct-deposit.html';" type="button" class="btn btn-default">Direct Deposit (EI)</button>
+          <button onclick="window.location.href = '/MSCA-Prototype/scenarioA/services/my-account/MSCA/EI/personal-information/language.html';" type="button" class="btn btn-default">Preferred language for written communications</button>
+		</section>
+		
+		
+		<div class="panel panel-default">
         <div class="panel-body">
           <h2 id="a1-1" class="h3 mrgn-tp-0">Information on your latest EI claim</h2>
           <p>Choose the “View my status and correspondence (Alert Me)” button to see your claim status, messages sent to you on your active and past claims (to Dec 2017) and subscribe to Alert Me service for email alerts.  If you have an active claim, the “Latest Claim” button shows the condition of your claim as of today including; start date of claim, weekly benefit rate, numbers of weeks of benefit paid, type of benefits being claimed etc. The “Payment information” button provides specific information on payment and non-payment details and your declarations for each week of EI benefits that you have claimed. </p>
