@@ -82,6 +82,7 @@
     text-align: left;
 }
 .large-btn b {
+
     display: inline-block;
     width: 85%;
     text-align: center;
@@ -280,13 +281,17 @@ a.btn-blue:hover, a.btn-blue:active, a.btn-blue:focus {
       </div>
     </div>
     <div class="col-xs-12 col-md-9">
-      <p>The Help button at the top of each page provides additional information. </p>
-      <p>On this page, you can get information on your Employment Insurance (EI)  claims. During our hours of operation, you can also manage your account, by:</p>
-      <ul>
-        <li>updating  your contact information</li>
-        <li>modifying  your direct deposit information</li>
-        <li>registering  for the email notification service (Alert me)</li>
-      </ul>
+      <p>Employment Insurance (EI) allows you to view information on your latest and past claims, tax information and Records of Employment (ROEs). </p>
+      <p>You can also change your personal information onlie during our hours of operation.</p>
+		<details>
+              <summary><!--Service times-->Hours of operation in your province or territory</summary>
+              <ul id="hours">
+				<li><strong>Atlantic Canada:</strong> from 6:00 am to 9:00 pm Atlantic Standard Time (AST) Monday to Friday and from 6:00 am to 5:00 pm AST Saturday and Sunday.</li>
+<li><strong>Quebec:</strong> from 6:00 am to 10:00 pm Eastern Standard Time (EST) Monday to Friday and from 6:00 am to 4:30 pm EST Saturday and Sunday.</li>
+<li><strong>Ontario:</strong> from 6:00 am to 10:30 pm Eastern Standard Time (EST) Monday to Friday, from 6:00 am to 4:00 pm EST Saturday and from 7:00 am to 5:00 pm Sunday.</li>
+<li><strong>Western Canada:</strong> from 7:00 am to 10:00 pm Central Time (CT) Monday to Friday and from 7:00 am to 7:00 pm (CT) Saturday and Sunday.
+</li></ul>
+            </details>
       <section>
         <div class="panel panel-default">
           <div class="panel-body">
@@ -295,9 +300,19 @@ a.btn-blue:hover, a.btn-blue:active, a.btn-blue:focus {
               <div class="brdr-bttm-fade"></div>
             </div>
             <br />
-            <p>When you select the View my status and correspondence (Alert me) button,  you can check your latest claim&rsquo;s status and messages.<br>
-You can also receive email notifications if you register for the Alert me  service. </p>
-If you have an active claim, the Latest claim and Payment  Information buttons show details, such as start date, weekly benefit rate,  number of weeks paid and payment details.
+            <p>Information  on your latest claim is used to: </p>
+            <ul>
+              <li>check  your latest claim&rsquo;s status and messages; and</li>
+              <li>register to Alert me to receive email notifications.</li>
+              </ul>
+				<p>If  you have an active claim, you can view your information under Latest claim and  Payment information, such as: </p>
+            
+            <ul>
+              <li>start date;</li>
+              <li>weekly benefit rate;</li>
+              <li>number of weeks paid; and </li>
+              <li>payment details.</li>
+            </ul>
             <ul class="list-unstyled list-inline">
 			  <li class="mrgn-bttm-sm"><button onclick="window.location.href = '/MSCA-Prototype/scenarioA/services/my-account/MSCA/EI/latest-claim-status.html';" type="button" class="btn btn-default">View my status and correspondence (Alert me)</button></li>
             <li class="mrgn-bttm-sm"><button onclick="window.location.href = '/MSCA-Prototype/scenarioA/services/my-account/MSCA/EI/latest-claim-details.html';" type="button" class="btn btn-default">Latest claim</button></li>
@@ -314,16 +329,23 @@ If you have an active claim, the Latest claim and Payment  Information buttons s
               <div class="brdr-bttm-fade"></div>
             </div>
             <br />
-            <p>In this section, you can check or modify your mailing address, telephone  number, direct deposit information and preferred language. <a name="4"></a>Modifications  can only be done during the hours of operation in your province or territory.</p>
-<details>
-              <summary><!--Service times-->Hours of operation for your Province or Territory</summary>
+            <p>View/Change  my personal information is used to check or modify your </p>
+            <ul>
+              <li>mailing address;</li>
+              <li>telephone number;</li>
+              <li>direct deposit information; and </li>
+              <li>preferred language.</li>
+            </ul>
+            <p>Online modifications  can only be done during the <a href="#hours">hours of operation in your province or territory</a>.</p>
+<!--<details>
+              <summary>Hours of operation for your province or territory</summary>
               <ul>
 				<li><strong>Atlantic Canada:</strong> from 6:00 am to 9:00 pm Atlantic Standard Time (AST) Monday to Friday and from 6:00 am to 5:00 pm AST Saturday and Sunday.</li>
 <li><strong>Quebec:</strong> from 6:00 am to 10:00 pm Eastern Standard Time (EST) Monday to Friday and from 6:00 am to 4:30 pm EST Saturday and Sunday.</li>
 <li><strong>Ontario:</strong> from 6:00 am to 10:30 pm Eastern Standard Time (EST) Monday to Friday, from 6:00 am to 4:00 pm EST Saturday and from 7:00 am to 5:00 pm Sunday.</li>
 <li><strong>Western Canada:</strong> from 7:00 am to 10:00 pm Central Time (CT) Monday to Friday and from 7:00 am to 7:00 pm (CT) Saturday and Sunday.
 </li></ul>
-            </details>
+            </details>-->
             <ul class="list-unstyled list-inline">
 				<li class="mrgn-bttm-sm"><button onclick="window.location.href = '/MSCA-Prototype/scenarioA/services/my-account/MSCA/EI/personal-information/address-telephone.html';" type="button" class="btn btn-default">Mailing address and telephone number</button></li>
             <li class="mrgn-bttm-sm"><button onclick="window.location.href = '/MSCA-Prototype/scenarioA/services/my-account/MSCA/EI/personal-information/direct-deposit.html';" type="button" class="btn btn-default">Direct Deposit (EI)</button></li>
@@ -340,17 +362,16 @@ If you have an active claim, the Latest claim and Payment  Information buttons s
               <div class="brdr-bttm-fade"></div>
           </div>
             <br />
-          <p>In the Records of Employment (ROEs) section, you can:</p>
+          <p>Records  of Employment is used to:</p>
           <ul>
-            <li>check  and print electronic ROEs</li>
-            <li>check  information on paper ROEs</li>
+            <li>check and print electronic ROEs</li>
+            <li>check information on paper ROEs</li>
           </ul>
-        
-            <p>This information is available for the last 7 years.</p>
-     
+          <p><br>
+            This information is available for the last 7 years.</p>
 <ul class="list-unstyled list-inline">
 		    <li class="mrgn-bttm-sm">
-		      <button onclick="window.location.href = '/MSCA-Prototype/scenarioA/services/my-account/MSCA/EI/records-of-employment.html';" type="button" class="btn btn-default">Records of employment</button></li>
+	        <button onclick="window.location.href = '/MSCA-Prototype/scenarioA/services/my-account/MSCA/EI/records-of-employment.html';" type="button" class="btn btn-default">Records of Employment</button></li>
 		  </ul>
         </div>
       </div>
@@ -361,10 +382,8 @@ If you have an active claim, the Latest claim and Payment  Information buttons s
               <div class="brdr-bttm-fade"></div>
             </div>
             <br />
-          <p>The Tax slips (T4E) button lets you check and print T4Es for the last 6 years  if you received EI benefits. </p>
-The Tax slip mailing options button lets you choose to  receive your T4E electronically or by mail. You can later change the option and  still check and print T4Es.
-			
-          <ul class="list-unstyled list-inline">
+          <p>Tax  information is used to check and print T4Es for the last 6 years, as long as  you&rsquo;ve received EI benefits. You can  also choose to receive your T4E electronically or by mail under the Tax slip  mailing options. </p>
+<ul class="list-unstyled list-inline">
 			<li class="mrgn-bttm-sm"><button onclick="window.location.href = '/MSCA-Prototype/scenarioA/services/my-account/MSCA/EI/Tax_Slips/Tax_Slips_T4E.html';" type="button" class="btn btn-default">Tax slips (T4E)</button></li>
           <li class="mrgn-bttm-sm"><button onclick="window.location.href = '/MSCA-Prototype/scenarioA/services/my-account/MSCA/EI/Tax_Slips/Tax-Slips-Mailing.html';" type="button" class="btn btn-default">Tax slip mailing options</button></li>
 		  </ul>
@@ -377,7 +396,7 @@ The Tax slip mailing options button lets you choose to  receive your T4E electro
               <div class="brdr-bttm-fade"></div>
           </div>
             <br />
-          <p>The Past claims button displays past EI claims. You can select a claim for  specific information, including payment details.</p>
+          <p>Past  claims is used to view your past EI claims. You can select a claim for specific  information, including payment details.</p>
 <ul class="list-unstyled list-inline">
 			<li class="mrgn-bttm-sm"> <button onclick="window.location.href = '/MSCA-Prototype/scenarioA/services/my-account/MSCA/EI/past-claims.html';" type="button" class="btn btn-default">Past claims</button></li>
 		  </ul>
@@ -385,12 +404,12 @@ The Tax slip mailing options button lets you choose to  receive your T4E electro
       </div>
       <div class="panel panel-default">
         <div class="panel-body">
-			<div class="mrgn-tp-md header-bg">
+		  <div class="mrgn-tp-md header-bg">
               <h2 id="a1-6" class="mrgn-tp-0">eForms</h2>
               <div class="brdr-bttm-fade"></div>
             </div>
             <br />
-          <p>eForms allow you to submit information electronically. This option is displayed  only when you have an active claim for certain benefit types.</p>
+          <p>eForms is used to submit information electronically. This option is displayed  only when you have an active claim for certain benefit types.</p>
 <ul class="list-unstyled list-inline">
 			<li class="mrgn-bttm-sm"><button onclick="window.location.href = '/MSCA-Prototype/scenarioA/services/my-account/MSCA/EI/eForm/eForm-PNS.html';" type="button" class="btn btn-default">eForm (Provide new information regarding my claim)</button></li>
 		  </ul>
@@ -403,7 +422,7 @@ The Tax slip mailing options button lets you choose to  receive your T4E electro
               <div class="brdr-bttm-fade"></div>
             </div>
             <br />
-          <p>With the Self-employment registration Agreement, Register and/or status  button, you can register for, check the status of, or terminate your  self-employment agreement.</p>
+          <p>Self-employed  is used to register for, check the status of, or terminate your self-employment  agreement.</p>
 <ul class="list-unstyled list-inline">
 			<li class="mrgn-bttm-sm"><button onclick="window.location.href = '/MSCA-Prototype/scenarioA/services/my-account/MSCA/EI/self-employed.html';" type="button" class="btn btn-default">Agreement status (self-employed)</button></li>
 		  </ul>
@@ -416,7 +435,7 @@ The Tax slip mailing options button lets you choose to  receive your T4E electro
               <div class="brdr-bttm-fade"></div>
             </div>
             <br />
-          <p>The Province of residence button allows you to select the province in which  you reside and are claiming EI benefits. Select the correct province to access  your EI information.</p>
+          <p>Province  of residence is used to select the province in which you reside and are  claiming EI benefits. Select the correct province to access your EI  information.</p>
 <ul class="list-unstyled list-inline">
 			<li class="mrgn-bttm-sm"><button onclick="window.location.href = '/MSCA-Prototype/scenarioA/services/my-account/MSCA/EI/province.html';" type="button" class="btn btn-default">Province of residence</button></li>
 		  </ul>
@@ -429,7 +448,7 @@ The Tax slip mailing options button lets you choose to  receive your T4E electro
               <div class="brdr-bttm-fade"></div>
             </div>
             <br />
-          <p>Select the Mistakes can happen button to learn how to report mistakes and changes.</p>
+          <p>Mistakes can happen is used to learn how to report mistakes and changes.</p>
 <ul class="list-unstyled list-inline">
 			<li class="mrgn-bttm-sm"><button onclick="window.location.href = '/MSCA-Prototype/scenarioA/services/my-account/MSCA/EI/eForm/mistakes-can-happen.html';" type="button" class="btn btn-default">Mistakes can happen</button></li>
 		  </ul>
