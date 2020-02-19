@@ -260,7 +260,8 @@ a.btn-blue:hover, a.btn-blue:active, a.btn-blue:focus {
 	<section class="panel panel-info">
   <header class="panel-heading">
    <h5 class="panel-title">* Voulez-vous que Service Canada communique avec vous en français ou en anglais?</h5>
-  </header>
+  </header><br />
+		<div class="row">
 <div class="col-md-4">
 <div class="form-group">
 <select class="form-control" id="dt_wetfeature" name="dt_wetfeature" data-column="4">
@@ -268,7 +269,7 @@ a.btn-blue:hover, a.btn-blue:active, a.btn-blue:focus {
 <option value="Anglais">Anglais</option>
 </select>
 </div>
-</div>
+</div></div>
 
 </section>
 
@@ -316,103 +317,102 @@ a.btn-blue:hover, a.btn-blue:active, a.btn-blue:focus {
 
 <section class="panel panel-info">
   <header class="panel-heading">
-   <h5 class="panel-title">Applying for the Guaranteed Income Supplement (GIS)</h5>
+   <h5 class="panel-title">Présenter une demande de Supplément de revenu garanti :</h5>
   </header>
   
 
-<p>If you filed your income tax for last year, Service Canada will get your income information from the Canada Revenue Agency to determine if you are eligible for the Guaranteed Income Supplement.</p>
+<p>Si vous avez produit votre déclaration de revenus pour l'année dernière, Service Canada obtiendra vos renseignements sur le revenu de l'Agence du revenu du Canada pour déterminer votre admissibilité au Supplément de revenu garanti.</p>
 
-<p>Every year that you file your income tax with the Canada Revenue Agency, we will review your income to see if you are eligible. If you are, we will add the Supplement to your monthly OAS pension amount.</p>
+<p>Chaque année que vous déposez votre impôt sur le revenu auprès de l'Agence du revenu du Canada, nous examinerons votre revenu pour déterminer votre admissibilité. Si vous l'êtes, nous ajouterons le supplément à votre montant mensuel de pension de la SV.</p>
 
-<p>If you <strong>do not</strong> want to apply for the Supplement, check here:
+<p>Si vous ne souhaitez pas présenter de demande pour le supplément, cochez cette case :
 	<form>
     <fieldset>
 <input type="radio" name="Income1" value="Yes">
 </fieldset>
 </form></p>
 
-<p><strong>-- When client selects the radio button [do not want to apply for the GIS], the system must present the “Decline the GIS” pop-up and hide the “Income” block. --</strong></p>
+<!--<p><strong>-- Lorsque le client sélectionne le bouton radio [ne souhaite pas présenter une demande pour le SRG], le système doit afficher la fenêtre contextuelle « Refuser le SRG » et masquer le bloc « Revenus » et « État civil ». --</strong></p>-->
 
-<p><strong>Apply for my OAS pension and the GIS</strong></p>
+<p><strong>Présenter une demande de pension de la SV et de SRG</strong></p>
 
-<p>By choosing not to apply for the Supplement, you understand that if in the future you change your mind, you will need to apply. Any entitlement (including up to 11 months retroactive benefits, if applicable) will be based on information at the time of application.</p>
+<p>En choisissant de refuser le supplément, vous comprenez que si, à l’avenir,  vous changez d’avis, vous devrez présenter une demande. Tout droit (y compris les prestations rétroactives d’une durée maximale de 11 mois, le cas échéant) sera fondé sur les renseignements en vigueur au moment de la demande.</p>
 
-<p>For more information, visit Canada.ca/OAS.</p>
+<p>Pous plus de renseignements, visitez Canada.ca/SV.
 
-<button type="button" class="btn btn-primary">Close</button>
+<button type="button" class="btn btn-primary">Fermer</button>
 </section>
 
 <section class="panel panel-info">
   <header class="panel-heading">
-   <h5 class="panel-title">* Income:</h5>
+   <h5 class="panel-title">* Revenus :</h5>
   </header>
   
 
-<p>The Supplement amount you are entitled to is normally based on your net income from last year. In the case of a couple, it is based on last year’s combined net income.</p>
+<p>Le montant du Supplément auquel vous avez droit est normalement établi en fonction de votre revenu net de l’année civile précédente. Dans le cas d’un couple, le montant est établi en fonction de la somme de votre revenu net pour l’année civile précédente.</p>
 
-<p>Did you (or your spouse/common-law partner) retire in the last two years, or do you (or your spouse/common-law partner) expect to retire in the next two years? (If yes, an income estimate for this year may replace your net income from last year.)</p>
-
-<p>When client selects [Yes], the system must present all the “Retirement Section” for both the client and the spouse/common-law partner, when applicable.</p>
+<p><strong>Est-ce que vous ou votre époux ou conjoint de fait avez pris votre retraite au cours des deux dernières années ou prévoyez prendre votre retraite au cours des deux prochaines années?</strong> (Si oui, une estimation du revenu pour cette année peut remplacer votre revenu net de l’année dernière.)</p>
+	<!--<p><strong>--Lorsque le client sélectionne le bouton radio [ne souhaite pas présenter une demande pour le SRG], le système doit afficher la fenêtre contextuelle « Refuser le SRG » et masquer le bloc « Revenus ».--</strong></p>-->
 
 	<form>
     <fieldset>
-<input type="radio" name="Income1" value="Yes">Yes<br>
-	<input type="radio" name="Income1" value="No">No
+<input type="radio" name="Income1" value="Oui">Oui<br>
+	<input type="radio" name="Income1" value="Non">Non
 </fieldset>
 </form>
 	
-<p>Has your (or your spouse/common-law partner’s) pension income dropped in the last two years, or do you (or your spouse/common-law partner) expect it to drop in the next two years? (If yes, you will be given the opportunity to provide an estimate of your income. If it is to your advantage, we would base the Guaranteed Income Supplement on your estimated income rather than on your reported income from last year.)</p>
+<p><strong>Votre revenu de pension (ou celui de votre époux ou conjoint de fait) a-t-il diminué au cours des deux dernières années, ou prévoyez-vous que votre revenu de pension (ou celui de votre époux ou conjoint de fait) diminuera au cours des deux prochaines années?</strong> (Si oui, vous aurez la possibilité de fournir une estimation de votre revenu. Si c’est à votre avantage, nous baserons le Supplément de revenu garanti sur le revenu que vous avez déclaré l’année dernière.)</p>
 
-<p>When client selects [Yes], the system must present the “Date of reduction” for both the client and the spouse/common-law partner, when applicable.</p>
+<!--<p><strong>--Lorsque le client sélectionne [Oui], le système doit présenter la « date de réduction » ci-dessous pour le client et pour l'époux ou conjoint de fait, le cas échéant.--</strong></p>-->
 
 <form>
     <fieldset>
-<input type="radio" name="Income2" value="Yes">Yes<br>
-	<input type="radio" name="Income2" value="No">No
+<input type="radio" name="Income2" value="Oui">Oui<br>
+	<input type="radio" name="Income2" value="Non">Non
 </fieldset>
 </form>
 
-<p>Do you (or your spouse/common-law partner) receive income from another country? (Each year, you must report to Service Canada any income received from another country in Canadian funds. You must report the full amount of your foreign income even if it is not paid in Canada or if it is not taxable in Canada.)</p>
+<p><strong>Est-ce que vous ou votre époux ou conjoint de fait recevez un revenu d’un autre pays? </strong>(Chaque année, vous devez déclarer à Service Canada tout revenu reçu d’un autre pays, en dollars canadiens. Vous devez déclarer le montant au complèt de votre revenu étranger même s’il n’est pas versé au Canada ou s’il n’est pas imposable au Canada.)</p>
 
-<p>When client selects [Yes], the system must present the “Type of income and date” below for both the client and the spouse/common-law partner, when applicable.</p>
+<!--<p><strong>--Lorsque le client sélectionne [Oui], le système doit présenter le « Type de revenu et la date » ci-dessous pour le client et pour l'époux ou conjoint de fait, le cas échéant.--</strong></p>-->
 
 <form>
     <fieldset>
-<input type="radio" name="Income3" value="Yes">Yes<br>
-	<input type="radio" name="Income3" value="No">No
+<input type="radio" name="Income3" value="Oui">Oui<br>
+	<input type="radio" name="Income3" value="No">Non
 </fieldset>
 </form>
 </section>
 
   <section class="panel panel-info">
   <header class="panel-heading">
-   <h5 class="panel-title">* Legal status and residence history:</h5>
+   <h5 class="panel-title">* Statut légal et historique de résidence :</h5>
   </header>
 	  
 
-<p>To be eligible for the OAS pension, Guaranteed Income Supplement, Allowance or Allowance for the Survivor, you must have legal status in Canada and you must meet the residence requirement. If living in Canada, you must be a Canadian citizen or legal resident when we approve your OAS application; if living outside Canada, you must have been a Canadian citizen or legal resident of Canada when you left.</p>
+<p>Pour être admissible à la pension de la Sécurité de la vieillesse, au Supplément de revenu garanti, à l’Allocation ou à l’Allocation au survivant, vous devez avoir un statut légal au Canada et vous devez satisfaire aux exigences en matière de résidence. Si vous vivez au Canada, vous devez être citoyen canadien ou résident autorisé au moment où nous approuvons votre demande de pension de Sécurité de la vieillesse; si vous vivez à l’extérieur du Canada, vous devez avoir été citoyen canadien ou résident autorisé du Canada lorsque vous êtes parti.</p>
 
-<button type="button" class="btn btn-default">Add</button>   <strong>-or-</strong>   <button type="button" class="btn btn-default">Change</button>
+<button type="button" class="btn btn-default">Ajouter</button>   <strong>-ou-</strong>   <button type="button" class="btn btn-default">Changer</button>
 
-<p>When client selects [Change] or [Add], the system must display the Add legal status and residence history (SBT E 002) screen, and returned to Step 1 of 3, with Legal Status and Residence History updated, and the button displayed should be [Change]</p>
+<!--<p><strong>--Lorsque le client sélectionne [Ajouter], le système doit afficher l'écran Ajouter statut légal et l’historique de résidence (SBT E 002), puis revenir à l'étape 1 sur 3 avec le statut légal et l'historique de résidence mis à jour et le bouton affiché doit être [Changer].--</strong></p>-->
 
 </section>
 
   <section class="panel panel-info">
   <header class="panel-heading">
-   <h5 class="panel-title">* Do you want Service Canada to deduct federal tax from your monthly payment?</h5>
+   <h5 class="panel-title">* Voulez-vous que Service Canada déduise une retenue volontaire d'impôt fédéral de vos prestations mensuelles?</h5>
   </header>  
 
-<p>The OAS pension is taxable income. Income tax is only deducted from your monthly payment if you request it.</p>
+<p>La pension de la SV est un revenu imposable. L'impôt sur le revenu ne sera déduit de votre paiement mensuel que si vous le demandez.</p>
 
-<p>To request that income tax be deducted from your pension, or to change the amount being deducted online, through My Service Canada Account, select “Yes” below.</p>
+<p>Pour demander que l’impôt sur le revenu soit déduit de votre pension ou pour changer le montant déduit en ligne via Mon compte Service Canada, sélectionnez «Oui» ci-dessous.</p>
 
-<p>When client selects [Yes], the system will display a [Add] button.</p>
+<!--<p><strong>--Lorsque le client sélectionne [Oui], le système affichera le bouton [Ajouter] ci-dessous.--</strong></p>-->
 
 <form>
     <fieldset>
-<input type="radio" name="payment" value="Yes">Yes<br>
-	<input type="radio" name="payment" value="No">No
+<input type="radio" name="payment" value="Oui">Oui<br>
+	<input type="radio" name="payment" value="Non">Non
 </fieldset>
 </form>
 
@@ -420,63 +420,64 @@ a.btn-blue:hover, a.btn-blue:active, a.btn-blue:focus {
 
   <section class="panel panel-info">
   <header class="panel-heading">
-   <h5 class="panel-title">How do you want to receive your tax slips (T4A, NR4)?</h5>
+   <h5 class="panel-title">* Comment souhaitez-vous recevoir vos feuillets de renseignements fiscaux (T4A, NR4)?</h5>
   </header>
 
-<p>You can view and print an official tax slip for your income tax return online, through My Service Canada Account. How do you want to receive your tax slips?</p>
+<p>Vous pouvez visualiser et imprimer une copie officiel de vos feuillets de renseignement fiscaux en ligne, par l’intermédiaire de Mon dossier Service Canada. Comment voulez-vous recevoir vos feuillets de renseignements fiscaux?</p>
 
 <form>
     <fieldset>
-<input type="radio" name="mail" value="Online">Online<br>
-	<input type="radio" name="mail" value="By mail">By mail
+<input type="radio" name="mail" value="En ligne">En ligne<br>
+	<input type="radio" name="mail" value="Par la poste">Par la poste
 </fieldset>
 </form>
 
-Please check your personal information.
+<p>Veuillez vérifier vos renseignements personnels.</p>
 
 </section>
 
   <section class="panel panel-info">
   <header class="panel-heading">
-   <h5 class="panel-title">* Home address:</h5>
+   <h5 class="panel-title">* Adresse du domicile :</h5>
   </header>  
 
 <p>(Pre-filled (address)</p>
 
-<button type="button" class="btn btn-default">Change</button>
+<button type="button" class="btn btn-default">Changer</button>
 
-<p>When client selects [Change], the system must display the Postal Code (SBT F 026) screen, and returned to Step 1 of 3, with Home address updated.</p>
+<!--<p><strong>--Lorsque le client sélectionne [Modifier], le système doit afficher l'écran Code postal (SBT F 026), puis revenir à l'étape 1 sur 3 avec l'adresse du domicile mise à jour.--</strong></p>-->
 
 </section>
 
   <section class="panel panel-info">
   <header class="panel-heading">
-   <h5 class="panel-title">* Telephone number:</h5>
+   <h5 class="panel-title">* Numéro de téléphone :</h5>
   </header>
 
 	  <p>(Pre-filled (telephone)</p>
 
-<button type="button" class="btn btn-default">Add</button> <strong>-or-</strong> <button type="button" class="btn btn-default">Change</button>
+<button type="button" class="btn btn-default">Ajouter</button> <strong>-ou-</strong> <button type="button" class="btn btn-default">Changer</button>
 
 </section>
 
   <section class="panel panel-info">
   <header class="panel-heading">
-   <h5 class="panel-title">* Direct deposit (banking information):</h5>
+   <h5 class="panel-title">* Dépôt direct (renseignements bancaires):</h5>
   </header>
 
 	  <p>(Pre-filled (direct deposit)</p>
 
-<button type="button" class="btn btn-default">Add</button> <strong>-or-</strong> <button type="button" class="btn btn-default">Change</button>
+<button type="button" class="btn btn-default">Ajouter</button> <strong>-ou-</strong> <button type="button" class="btn btn-default">Changer</button>
 
-<p>Direct deposit is the fastest, most secure and reliable way to receive your OAS payments. Nearly all OAS recipients receive their payments by direct deposit. If you, however, prefer to receive cheques by mail, please cancel your online application and submit a paper application to Service Canada.</p>
+<p>Le dépôt direct est le moyen le plus rapide, sécuritaire et fiable de recevoir vos paiements de la SV. Presque tous les bénéficiaires de la SV reçoivent leurs bénifices par dépôt direct. Par compte, si vous désirez recevoir vos chèques mensuels par la poste, veuillez annuler votre demande en ligne et envoyez une demande papier à Service Canada.</p>
 
 </section>
 
-<p>Select “Continue” to view a summary of your personal information, and submit your application. If you have not decided or have changed your mind, select “Cancel”.</p>
+<p>Sélectionnez « Continuer » pour afficher un sommaire de vos renseignements personnels et pour soumettre votre demande. Si vous êtes indécis ou si vous avez changé d'avis, sélectionnez « Annuler ».</p>
 
-<button type="button" class="btn btn-Primary">Continue</button> <button type="button" class="btn btn-default">Cancel</button>
+<button type="button" class="btn btn-Primary">Continuer</button> <button type="button" class="btn btn-default">Annuler</button>
   
+		<p><a href="/MSCA-Prototype/scenarioA/services/my-account/MSCA/landing-page-cpp-oas-fr.html">Retour au menu principal de l'assurance-emploi</a></p>
 	
 </section>
 </aside>
