@@ -1,0 +1,612 @@
+<!DOCTYPE html>
+<!--[if lt IE 9]><html class="no-js lt-ie9" lang="en" dir="ltr"><![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js" lang="en" dir="ltr">
+<!--<![endif]-->
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width,initial-scale=1" name="viewport"/>
+
+<!-- Web Experience Toolkit (WET) / Boîte à outils de l'expérience Web (BOEW)
+     wet-boew.github.io/wet-boew/License-en.html / wet-boew.github.io/wet-boew/Licence-fr.html -->
+
+<title>My Service Canada Account</title>
+<script type="text/javascript" src="https://www.canada.ca/etc/designs/canada/cdts/gcweb/v4_0_30/cdts/compiled/soyutils.js"></script> 
+<script type="text/javascript" src="https://www.canada.ca/etc/designs/canada/cdts/gcweb/v4_0_30/cdts/compiled/wet-en.js"></script>
+<link href="https://srv241-s2.lab.hrdc-drhc.gc.ca/sc/sys2/msca-mdsc/portal-portail/pro/portal/page/portal/msca/private/static-content/msca-mdsc/css/msca-cdtn.css" rel="stylesheet"/>
+<noscript>
+<!--[if gte IE 9 | !IE ]><!-->
+<link href="https://www.canada.ca/etc/designs/canada/cdts/gcweb/v4_0_29/assets/favicon.ico" rel="icon" type="image/x-icon"/>
+<link rel="stylesheet" href="https://www.canada.ca/etc/designs/canada/cdts/gcweb/v4_0_29/css/theme.min.css"/>
+<link rel="stylesheet" href="https://www.canada.ca/etc/designs/canada/cdts/gcweb/v4_0_29/cdts/cdtsfixes.css"/>
+<link rel="stylesheet" href="https://www.canada.ca/etc/designs/canada/cdts/gcweb/v4_0_29/cdts/cdtsapps.css"/>
+<!--<![endif]--> 
+
+<!--[if lt IE 9]>
+				<link href="https://www.canada.ca/etc/designs/canada/cdts/gcweb/v4_0_29/assets/favicon.ico" rel="shortcut icon"/>
+				<link rel="stylesheet" href="https://www.canada.ca/etc/designs/canada/cdts/gcweb/v4_0_29/css/ie8-theme.min.css"/>
+				<![endif]--> 
+
+<!--[if lte IE 9]><![endif]-->
+<link rel="stylesheet" href="https://www.canada.ca/etc/designs/canada/cdts/gcweb/v4_0_29/css/noscript.min.css"/>
+<link rel="stylesheet" href="https://www.canada.ca/etc/designs/canada/cdts/gcweb/v4_0_29/cdts/cdtsnoscript.css"/>
+
+<!--[if gte IE 9 | !IE ]><!-->
+<link href="https://www.canada.ca/etc/designs/canada/cdts/gcweb/v4_0_26/assets/favicon.ico" rel="icon" type="image/x-icon">
+<link rel="stylesheet" href="https://www.canada.ca/etc/designs/canada/cdts/gcweb/v4_0_26/css/theme.min.css">
+<link rel="stylesheet" href="https://www.canada.ca/etc/designs/canada/cdts/gcweb/v4_0_26/cdts/cdtsfixes.css">
+<!-- Are you using the application templates? If so add the following CSS file -->
+<link rel="stylesheet" href="https://www.canada.ca/etc/designs/canada/cdts/gcweb/v4_0_26/cdts/cdtsapps.css">
+<!--<![endif]--> 
+<!--[if lt IE 9]>
+<link href="https://www.canada.ca/etc/designs/canada/cdts/gcweb/v4_0_26/assets/favicon.ico" rel="shortcut icon" />
+<link rel="stylesheet" href="https://www.canada.ca/etc/designs/canada/cdts/gcweb/v4_0_26/css/ie8-theme.min.css" />
+<![endif]--> 
+<!--[if lte IE 9]><![endif]-->
+<link rel="stylesheet" href="https://www.canada.ca/etc/designs/canada/cdts/gcweb/v4_0_26/css/noscript.min.css" />
+<link rel="stylesheet" href="https://www.canada.ca/etc/designs/canada/cdts/gcweb/v4_0_26/cdts/cdtsnoscript.css" />
+</noscript>
+<script type="text/javascript">document.write(wet.builder.refTop({ cdnEnv: "AKAMAI", isApplication: true }))</script>
+<style>
+.modal-footer {
+    background-color: #FFF
+}
+</style>
+<style type="text/css">
+.orange-bg {
+    background: linear-gradient(#f68b1f, #f89736);
+}
+.blue-bg {
+    background-color: #11409F;
+}
+.header-bg {
+    line-height: normal;
+    background: linear-gradient(to right, #ddd 50%, #fff 75%, #fff);
+}
+.header-bg .brdr-bttm-fade {
+    width: 100%;
+    height: 4px;
+    background: linear-gradient(to right, #26374a 50%, #fff 75%, #fff);
+}
+.header-bg h2 {
+    background: linear-gradient(297.5deg, transparent, transparent 25px, white 26px, white 31px, #26374a 32px, #26374a);
+    color: white;
+    display: inline-block;
+    margin: 0px;
+    padding: 5px 30px 5px 15px;
+    min-width: 300px;
+    font-size: 1.3em;
+}
+.large-btn {
+    width: 85%;
+    text-align: left;
+}
+.large-btn b {
+
+    display: inline-block;
+    width: 85%;
+    text-align: center;
+}
+.large-btn img {
+    display: inline-block;
+    width: 10%;
+    margin-left: 3%;
+}
+a.btn-green:hover, a.btn-purple:hover, a.btn-blue:hover {
+    color: white;
+}
+a.btn-green:link, a.btn-green:visited, a.btn-green:hover, a.btn-green:active, a.btn-purple:link, a.btn-purple:visited, a.btn-purple:hover, a.btn-purple:active, a.btn-blue:link, a.btn-blue:visited, a.btn-blue:hover, a.btn-blue:active {
+    color: white;
+    padding-left: 5px;
+}
+a.btn-green {
+    background: #444;
+}
+a.btn-green:hover, a.btn-green:active {
+    background: #787878;
+}
+a.btn-purple {
+    background: #32002A;
+}
+a.btn-purple:hover, a.btn-purple:active {
+    background: #4A0B38;
+}
+a.btn-blue:link, a.btn-blue:visited {
+    background: #283a7b;
+}
+a.btn-blue:hover, a.btn-blue:active, a.btn-blue:focus {
+    background: #26374a;
+}
+	/*
+	
+		
+	a.btn-green {
+		background: #000000;
+	}
+	a.btn-green:hover, a.btn-green:active {
+		background: #787878;
+	}
+	
+	
+	a.btn-purple {
+		background: #32002A;
+	}
+	a.btn-purple:hover, a.btn-purple:active {
+		background: #4A0B38;
+	}
+	
+	
+	a.btn-blue {
+		background: #26374a;
+	}
+	a.btn-blue:hover, a.btn-blue:active {
+		background: #26374a;
+	}*/
+</style>
+</head>
+
+<body vocab="http://schema.org/" typeof="WebPage">
+<div id="def-top">
+  <ul id="wb-tphp">
+    <li class="wb-slc"><a class="wb-sl" href="#wb-cont">Skip to main content</a></li>
+    <li class="wb-slc visible-sm visible-md visible-lg"><a class="wb-sl" href="#wb-info">Skip to "About this application"</a></li>
+    <li class="wb-slc visible-md visible-lg"><a class="wb-sl" href="#wb-sec">Skip to section menu</a></li>
+  </ul>
+  <header role="banner">
+    <div id="wb-bnr" class="container">
+      <div class="row">
+        <div class="brand col-xs-9 col-sm-8 col-md-6">
+          <object type="image/svg+xml" tabindex="-1" data="https://www.canada.ca/etc/designs/canada/cdts/gcweb/v4_0_29/assets/sig-blk-en.svg">
+          </object>
+          <span class="wb-inv"> <span> Government of Canada </span> <span>/</span> <span lang="fr"> Gouvernement du Canada </span> </span> </div>
+        <section id="wb-lng" class="text-right col-xs-3 col-sm-4 col-md-6">
+          <h2 class="wb-inv">Language selection</h2>
+          <ul class="list-inline margin-bottom-none">
+            <li><a lang="fr" href="/MSCA-Prototype/scenarioA/services/my-account/MSCA/landing-page-ei.html">English</a></li>
+          </ul>
+        </section>
+      </div>
+    </div>
+    <div class="app-bar">
+      <div class="container">
+        <div class="row">
+          <section class="col-sm-7">
+            <h2 class="wb-inv">Mon dossier Service Canada</h2>
+            <a class="app-name" href="/MSCA-Prototype/scenarioA/services/my-account/MSCA/lobby-wax-fr.html">Mon dossier Service Canada</a> </section>
+          <nav class="col-sm-5 hidden-xs hidden-print" role="navigation">
+            <h2 class="wb-inv">Account menu</h2>
+            <ul class="app-list-account list-unstyled">
+              <li><a href="###" class="btn"><span class="glyphicon glyphicon-cog" aria-hidden="true"></span> Parametres du compte</a></li>
+              <li><a href="###" class="btn"><span class="glyphicon glyphicon-off" aria-hidden="true"></span> Fermer la session</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </div>
+    <div class="app-bar-mb container visible-xs-block hidden-print">
+      <nav role="navigation">
+        <h2 class="wb-inv">Search and menu</h2>
+        <ul class="app-list-main list-unstyled">
+          <li class="wb-mb-links" id="wb-glb-mn"><a href="#mb-pnl" aria-controls="mb-pnl" class="btn overlay-lnk" role="button">Menu</a>
+            <h2>Menu</h2>
+          </li>
+        </ul>
+        <div id="mb-pnl"></div>
+      </nav>
+    </div>
+    <nav role="navigation" id="wb-sm" data-trgt="mb-pnl" class="wb-menu visible-md visible-lg" typeof="SiteNavigationElement">
+      <div class="pnl-strt container nvbar" lang="en">
+       <h2 class="wb-inv">Topics menu</h2>
+        <div class="row">
+          <ul class="list-inline menu" role="menubar">
+            <li> <a
+ href="/MSCA-Prototype/scenarioA/services/my-account/MSCA/lobby-wax-fr.html">Accueil</a> </li>
+            <li> <a href="#section1" class="item">Assurance-emploi</a>
+              <ul class="sm list-unstyled" id="section1" role="menu">
+                <!--<li><a href="###">Status of my EI claim/application</a></li>-->
+                <li><a href="/MSCA-Prototype/scenarioA/services/my-account/MSCA/EI/EI-payment-page-fr.html">Renseignements sur votre dernière demande</a></li>
+                 <li><a href="/MSCA-Prototype/scenarioA/services/my-account/MSCA/EI/records-of-employment-fr.html">Relevés d'emploi</a></li>
+				  <li><a href="/MSCA-Prototype/scenarioA/services/my-account/MSCA/EI/latest-claim-details-fr.html">Dernière demande</a></li>
+               
+                <li><a href="/MSCA-Prototype/scenarioA/services/my-account/MSCA/landing-page-ei-fr.html">Assurance-emploi - Plus</a></li>
+              </ul>
+            </li>
+            <li> <a href="#section2" class="item">Régime de pensions du Canada/Sécurité de la vieillesse</a>
+              <ul class="sm list-unstyled" id="section2" role="menu">
+                <li> <a href="/MSCA-Prototype/scenarioA/services/my-account/MSCA/CPP-OAS/View-Change-Info/Payment-Info-fr.html">Renseignements de paiements</a> </li>
+				  <li> <a href="/MSCA-Prototype/scenarioA/services/my-account/MSCA/CPP-OAS/View-Change-Info/CPP-Contributions-fr.html">Cotisations au RPC</a> </li>
+                
+                <!--<li> <a href="###"> Estimated monthly CPP benefits </a> </li>-->
+                <li> <a href="/MSCA-Prototype/scenarioA/services/my-account/MSCA/CPP-OAS/View-Change-Info/Application-status-fr.html">L'état de demande</a> </li>
+                <li> <a href="/MSCA-Prototype/scenarioA/services/my-account/MSCA/landing-page-cpp-oas-fr.html"> Régime de pensions du Canada/Sécurité de la vieillesse - Plus </a> </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <nav role="navigation" id="wb-bc" property="breadcrumb">
+      <h2>Vous êtes ici</h2>
+      <div class="container">
+        <div class="row">
+          <ol class="breadcrumb">
+            <li><a href="/MSCA-Prototype/scenarioA/services/my-account/MSCA/lobby-wax-fr.html">Mon dossier Service Canada</a></li>
+          </ol>
+        </div>
+      </div>
+    </nav>
+  </header>
+</div>
+<section class="container"> <a class="btn btn-default" href="#" role="button">Services en vedette</a> <a class="btn btn-default" href="#" role="button">Aide</a></section>
+
+	
+	<main class="container" property="mainContentOfPage" role="main"><span id="pageTemplate:j_id__ctru6pc6" class="af_panelGroupLayout">
+<h1 property="name" id="wb-cont" dir="ltr">Étape 1 de 3 – Présenter une demande de pension de la Sécurité de la vieillesse (SV) et de Supplément de revenu garanti (SRG)</h1>
+  
+<section class="panel panel-info">
+  <header class="panel-heading">
+   <h5 class="panel-title">*  À quel moment souhaitez-vous commencer à recevoir votre pension de la SV?</h5>
+  </header>
+
+	
+<p>Vous pouvez commencer votre pension de la Sécurité de la Vieillesse dès le mois qui suit votre 65e anniversaire ou vous pouvez décider de la reporter. Vous pouvez en faire la demande au plus tôt 11 mois avant que vous voulez que ça commence.</p>
+
+<p>Pour décider quand vous voulez que votre pension début, prenez en compte votre situation personnelle, vos sources de revenu actuelles et futures, votre travail actuel et futur et vos projets de retraite. La <a href="#">Calculatrice du revenu de retraite canadienne</a> peut vous aider à déterminer le meilleur moment pour commencer à recevoir votre pension et vous fournir une estimation des sommes que vous pourriez recevoir.</p>
+
+<p>Pour plus de renseignements sur le report d’une pension de la SV, veuillez consulter la section d’<a href="#">aide</a> ou visiter <a href="#">Canada.gc/SV</a>.</p>
+
+</section>
+	
+	<section class="panel panel-info">
+  <header class="panel-heading">
+   <h5 class="panel-title">* Voulez-vous que Service Canada communique avec vous en français ou en anglais?</h5>
+  </header>
+<div class="col-md-4">
+<div class="form-group">
+<select class="form-control" id="dt_wetfeature" name="dt_wetfeature" data-column="4">
+<option value="Français">Français</option>
+<option value="Anglais">Anglais</option>
+</select>
+</div>
+</div>
+
+</section>
+
+<section class="panel panel-info">
+  <header class="panel-heading">
+   <h5 class="panel-title">* État civil :</h5>
+  </header>
+  
+
+<p>Veuillez vérifier votre état civil ci-dessous afin que le montant de votre pension et de vos prestations soit correct.</p>
+
+<p>Si votre demande de pension de la Sécurité de la vieillesse est approuvée et que vous résidez au Canada, vous pourriez également avoir droit au Supplément de revenu garanti, une somme non imposable qui est ajoutée à votre pension mensuelle de la Sécurité de la vieillesse. Le montant du Supplément dépend de votre état civil et de votre revenu annuel net ou, si vous êtes en couple, du revenu annuel net combiné. (Consultez la section d’aide pour en savoir plus.)</p>
+
+<p><strong>État civil :</strong> pre-determined list</p>
+
+<p><strong>Date de début de l&rsquo;état civil : </strong>aaaa-mm-jj</p>
+
+<p><strong>Type de document attestant l&rsquo;état civil : </strong><a href="#">Déclaration solennelle d'union de fait (deux signataires)</a> signée par un commissaire à l'assermentation</p>
+
+<p><strong>Type de document justificatif attestant l'état civil : </strong>pre-determined list (attached)</p>
+
+ 
+
+<!--<p><strong>Afficher uniquement [l’information relative à l’époux/conjoint de fait] lorsque l'état actuel est «Marié», « Conjoint de fait» ou « Marié - Vivre séparément pour des raisons indépendantes de notre volonté » ou « Conjoint de fait - Vivre séparément pour des raisons indépendantes de notre volonté »</strong></p>-->
+	<hr />
+
+<p><strong>Nom de l&rsquo;époux ou du conjoint de fait : </strong>nom</p>
+
+<p><strong>Numéro d&rsquo;assurance sociale (NAS) de l&rsquo;époux ou du conjoint de fait : </strong>*** *** 123</p>
+
+<p><strong>Date de naissance de l&rsquo;époux ou du conjoint de fait : </strong>aaaa-mm-jj</p>
+
+<p><strong>Date de décès de l&rsquo;époux ou du conjoint de fait :</strong> aaaa-mm-jj</p>
+
+ <br /><br />
+
+<p><strong>Ancien état civil : </strong>pre-determined list</p>
+
+<p><strong>Date de début de l&rsquo;ancien état civil : </strong>aaaa-mm-jj</p>
+
+<button type="button" class="btn btn-default">Ajouter</button>   <strong>-ou- </strong>  <button type="button" class="btn btn-default">Changer</button>
+
+<!--<p><strong>Lorsque le client sélectionne [Changer] ou [Ajouter], le système doit afficher l'écran Ajouter / modifier les informations sur l'état civil (SBT L 002), puis revenir à l'étape 1 sur 3 avec l'état civil mis à jour et le bouton affiché doit être [Changer].</strong></p>-->
+</section>
+
+<section class="panel panel-info">
+  <header class="panel-heading">
+   <h5 class="panel-title">Applying for the Guaranteed Income Supplement (GIS)</h5>
+  </header>
+  
+
+<p>If you filed your income tax for last year, Service Canada will get your income information from the Canada Revenue Agency to determine if you are eligible for the Guaranteed Income Supplement.</p>
+
+<p>Every year that you file your income tax with the Canada Revenue Agency, we will review your income to see if you are eligible. If you are, we will add the Supplement to your monthly OAS pension amount.</p>
+
+<p>If you <strong>do not</strong> want to apply for the Supplement, check here:
+	<form>
+    <fieldset>
+<input type="radio" name="Income1" value="Yes">
+</fieldset>
+</form></p>
+
+<p><strong>-- When client selects the radio button [do not want to apply for the GIS], the system must present the “Decline the GIS” pop-up and hide the “Income” block. --</strong></p>
+
+<p><strong>Apply for my OAS pension and the GIS</strong></p>
+
+<p>By choosing not to apply for the Supplement, you understand that if in the future you change your mind, you will need to apply. Any entitlement (including up to 11 months retroactive benefits, if applicable) will be based on information at the time of application.</p>
+
+<p>For more information, visit Canada.ca/OAS.</p>
+
+<button type="button" class="btn btn-primary">Close</button>
+</section>
+
+<section class="panel panel-info">
+  <header class="panel-heading">
+   <h5 class="panel-title">* Income:</h5>
+  </header>
+  
+
+<p>The Supplement amount you are entitled to is normally based on your net income from last year. In the case of a couple, it is based on last year’s combined net income.</p>
+
+<p>Did you (or your spouse/common-law partner) retire in the last two years, or do you (or your spouse/common-law partner) expect to retire in the next two years? (If yes, an income estimate for this year may replace your net income from last year.)</p>
+
+<p>When client selects [Yes], the system must present all the “Retirement Section” for both the client and the spouse/common-law partner, when applicable.</p>
+
+	<form>
+    <fieldset>
+<input type="radio" name="Income1" value="Yes">Yes<br>
+	<input type="radio" name="Income1" value="No">No
+</fieldset>
+</form>
+	
+<p>Has your (or your spouse/common-law partner’s) pension income dropped in the last two years, or do you (or your spouse/common-law partner) expect it to drop in the next two years? (If yes, you will be given the opportunity to provide an estimate of your income. If it is to your advantage, we would base the Guaranteed Income Supplement on your estimated income rather than on your reported income from last year.)</p>
+
+<p>When client selects [Yes], the system must present the “Date of reduction” for both the client and the spouse/common-law partner, when applicable.</p>
+
+<form>
+    <fieldset>
+<input type="radio" name="Income2" value="Yes">Yes<br>
+	<input type="radio" name="Income2" value="No">No
+</fieldset>
+</form>
+
+<p>Do you (or your spouse/common-law partner) receive income from another country? (Each year, you must report to Service Canada any income received from another country in Canadian funds. You must report the full amount of your foreign income even if it is not paid in Canada or if it is not taxable in Canada.)</p>
+
+<p>When client selects [Yes], the system must present the “Type of income and date” below for both the client and the spouse/common-law partner, when applicable.</p>
+
+<form>
+    <fieldset>
+<input type="radio" name="Income3" value="Yes">Yes<br>
+	<input type="radio" name="Income3" value="No">No
+</fieldset>
+</form>
+</section>
+
+  <section class="panel panel-info">
+  <header class="panel-heading">
+   <h5 class="panel-title">* Legal status and residence history:</h5>
+  </header>
+	  
+
+<p>To be eligible for the OAS pension, Guaranteed Income Supplement, Allowance or Allowance for the Survivor, you must have legal status in Canada and you must meet the residence requirement. If living in Canada, you must be a Canadian citizen or legal resident when we approve your OAS application; if living outside Canada, you must have been a Canadian citizen or legal resident of Canada when you left.</p>
+
+<button type="button" class="btn btn-default">Add</button>   <strong>-or-</strong>   <button type="button" class="btn btn-default">Change</button>
+
+<p>When client selects [Change] or [Add], the system must display the Add legal status and residence history (SBT E 002) screen, and returned to Step 1 of 3, with Legal Status and Residence History updated, and the button displayed should be [Change]</p>
+
+</section>
+
+  <section class="panel panel-info">
+  <header class="panel-heading">
+   <h5 class="panel-title">* Do you want Service Canada to deduct federal tax from your monthly payment?</h5>
+  </header>  
+
+<p>The OAS pension is taxable income. Income tax is only deducted from your monthly payment if you request it.</p>
+
+<p>To request that income tax be deducted from your pension, or to change the amount being deducted online, through My Service Canada Account, select “Yes” below.</p>
+
+<p>When client selects [Yes], the system will display a [Add] button.</p>
+
+<form>
+    <fieldset>
+<input type="radio" name="payment" value="Yes">Yes<br>
+	<input type="radio" name="payment" value="No">No
+</fieldset>
+</form>
+
+  </section>
+
+  <section class="panel panel-info">
+  <header class="panel-heading">
+   <h5 class="panel-title">How do you want to receive your tax slips (T4A, NR4)?</h5>
+  </header>
+
+<p>You can view and print an official tax slip for your income tax return online, through My Service Canada Account. How do you want to receive your tax slips?</p>
+
+<form>
+    <fieldset>
+<input type="radio" name="mail" value="Online">Online<br>
+	<input type="radio" name="mail" value="By mail">By mail
+</fieldset>
+</form>
+
+Please check your personal information.
+
+</section>
+
+  <section class="panel panel-info">
+  <header class="panel-heading">
+   <h5 class="panel-title">* Home address:</h5>
+  </header>  
+
+<p>(Pre-filled (address)</p>
+
+<button type="button" class="btn btn-default">Change</button>
+
+<p>When client selects [Change], the system must display the Postal Code (SBT F 026) screen, and returned to Step 1 of 3, with Home address updated.</p>
+
+</section>
+
+  <section class="panel panel-info">
+  <header class="panel-heading">
+   <h5 class="panel-title">* Telephone number:</h5>
+  </header>
+
+	  <p>(Pre-filled (telephone)</p>
+
+<button type="button" class="btn btn-default">Add</button> <strong>-or-</strong> <button type="button" class="btn btn-default">Change</button>
+
+</section>
+
+  <section class="panel panel-info">
+  <header class="panel-heading">
+   <h5 class="panel-title">* Direct deposit (banking information):</h5>
+  </header>
+
+	  <p>(Pre-filled (direct deposit)</p>
+
+<button type="button" class="btn btn-default">Add</button> <strong>-or-</strong> <button type="button" class="btn btn-default">Change</button>
+
+<p>Direct deposit is the fastest, most secure and reliable way to receive your OAS payments. Nearly all OAS recipients receive their payments by direct deposit. If you, however, prefer to receive cheques by mail, please cancel your online application and submit a paper application to Service Canada.</p>
+
+</section>
+
+<p>Select “Continue” to view a summary of your personal information, and submit your application. If you have not decided or have changed your mind, select “Cancel”.</p>
+
+<button type="button" class="btn btn-Primary">Continue</button> <button type="button" class="btn btn-default">Cancel</button>
+  
+	
+</section>
+</aside>
+</div>
+</div>
+</span> 
+<script type="text/javascript">var defPreFooter = document.getElementById("def-preFooter");
+				defPreFooter.outerHTML = wet.builder.preFooter({
+					cdnEnv: "prod",dateModified: "2019-06-29",screenIdentifier: "MSCA M 001",showPostContent: false,
+					showShare: false
+				});</script>
+</main>
+<span id="pageTemplate:pt_dc_def_pagefooter:pt_pg_def_pagefooter" class="af_panelGroupLayout"></span></span>
+<div id="def-bottom"></div>
+<script type="text/javascript">var defBottom = document.getElementById("def-bottom");
+				defBottom.outerHTML = wet.builder.footer({
+					cdnEnv : "prod",
+					showFeatures: false,termsLink: [ {href: "https://srv241-s2.lab.hrdc-drhc.gc.ca/ecas-seca/rascl/SCL/TC.aspx?mode=ReadOnly&lang=eng" } ],contactLinks: [ { href: "http://www.servicecanada.gc.ca/cgi-bin/op-so/msca/redirection.asp?linkmsca=/2e.html" } ],privacyLink: [],
+					showFooter: false,
+					localPath : ""
+				});</script><script type="text/javascript">document.write(wet.builder.refFooter({
+					cdnEnv : "prod",
+					localPath : "",
+					exitScript : true,
+					exitURL : "https://srv241-s2.lab.hrdc-drhc.gc.ca/sc/sys2/msca-mdsc/portal-portail/pro/portal/page/portal/msca/private/logout",
+					exitMsg : "You are leaving My Service Canada Account. Please confirm that you want to leave.",
+					exitDomains: "srv253-u-hrsdc-rhdcc.fjgc-gccf.gc.ca"
+				}));</script> 
+<span class="wb-sessto" data-wb-sessto='{
+						"inactivity" : 900000,
+						"reactionTime" : 180000,
+						"sessionalive" : 900000,
+						"logouturl" : "https://srv241-s2.lab.hrdc-drhc.gc.ca/sc/sys2/msca-mdsc/portal-portail/pro/portal/page/portal/msca/private/logout",
+						"refreshCallbackUrl": "https://srv241-s2.lab.hrdc-drhc.gc.ca/sc/sys2/msca-mdsc/portal-portail/pro/portal/page/portal/msca/private/faces/oracle/webcenter/portalapp/pages/session-refresh.jspx",
+						"refreshOnClick" : false }'></span> 
+<script type="text/javascript">_satellite.pageBottom();</script></span>
+<div id="document::msgCtr" style="display:none">
+  <div id="document::msgDlg" class="af_dialog">
+    <div class="af_dialog_inactive-background" _afrPanelWindowBackground="1"></div>
+    <div class="af_dialog_inactive-background" _afrPanelWindowBackground="1"></div>
+    <div class="af_dialog_inactive-background" _afrPanelWindowBackground="1"></div>
+    <div class="af_dialog_inactive-background" _afrPanelWindowBackground="1"></div>
+    <table cellpadding="0" cellspacing="0" border="0" summary="" class="af_dialog_main">
+      <tr>
+        <td class="p_AFResizable af_dialog_header-start" id="document::msgDlg::_hse">&nbsp;</td>
+        <td class="p_AFResizable af_dialog_header" id="document::msgDlg::_hce"><table cellpadding="0" cellspacing="0" border="0" width="100%" summary="">
+            <tr>
+              <td><div id="document::msgDlg::_ticn" class="af_dialog_icon-region" style="display:none"></div></td>
+              <td class="af_dialog_header-content-center" id="document::msgDlg::tb"><div id="document::msgDlg::_ttxt" class="af_dialog_title"></div></td>
+              <td><div class="af_dialog_close-icon-region"><a href="#" onclick="return false" class="af_dialog_close-icon-style" id="document::msgDlg::close" title="Close"></a></div></td>
+            </tr>
+          </table></td>
+        <td class="p_AFResizable af_dialog_header-end" id="document::msgDlg::_hee">&nbsp;</td>
+      </tr>
+      <tr>
+        <td class="p_AFResizable af_dialog_content-start" id="document::msgDlg::_cse">&nbsp;</td>
+        <td class="p_AFResizable af_dialog_content" id="document::msgDlg::contentContainer"><div id="document::msgDlg::_ccntr" class="af_dialog_content-center" style="position:relative;overflow:auto;">
+            <div id="document::msgDlg::_cnt" class="af_document_messages"></div>
+          </div></td>
+        <td class="p_AFResizable af_dialog_content-end" id="document::msgDlg::_cee">&nbsp;</td>
+      </tr>
+      <tr>
+        <td class="p_AFResizable af_dialog_footer-start" id="document::msgDlg::_fse"><div></div></td>
+        <td class="p_AFResizable af_dialog_footer" id="document::msgDlg::_fce"><table cellpadding="0" cellspacing="0" border="0" width="100%" summary="">
+            <tr>
+              <td class="p_AFResizable af_dialog_footer-content" id="document::msgDlg::_fcc"><button type="button" id="document::msgDlg::cancel" class="af_dialog_footer-button-cancel af_dialog_footer-button p_AFTextOnly" onclick="return false;">OK</button></td>
+              <td align="left" valign="bottom"><div class="p_AFResizable af_dialog_resize-icon-region"><a tabIndex="-1" class="af_dialog_resize-icon-style" id="document::msgDlg::_ree" title="Resize"></a></div></td>
+            </tr>
+          </table></td>
+        <td class="p_AFResizable af_dialog_footer-end" id="document::msgDlg::_fee"><div></div></td>
+      </tr>
+    </table>
+  </div>
+</div>
+<span id="document::iconC" style="display:none"><span id="af_messages::info-icon"><img src="/sc/sys2/msca-mdsc/portal-portail/pro/portal/page/portal/msca/private/afr/info.png" width="16" height="16" border="0" title="Information" alt="Information"></span><span id="af_message::warning-icon"><img src="/sc/sys2/msca-mdsc/portal-portail/pro/portal/page/portal/msca/private/afr/warning.png" width="16" height="16" border="0" title="Warning" alt="Warning"></span><span id="af_messages::fatal-icon"><img src="/sc/sys2/msca-mdsc/portal-portail/pro/portal/page/portal/msca/private/afr/error.png" width="16" height="16" border="0" title="Critical Error" alt="Critical Error"></span><span id="af_message::info-icon"><img src="/sc/sys2/msca-mdsc/portal-portail/pro/portal/page/portal/msca/private/afr/info.png" width="16" height="16" border="0" title="Information" alt="Information"></span><span id="af_message::fatal-icon"><img src="/sc/sys2/msca-mdsc/portal-portail/pro/portal/page/portal/msca/private/afr/error.png" width="16" height="16" border="0" title="Critical Error" alt="Critical Error"></span><span id="af_messages::warning-icon"><img src="/sc/sys2/msca-mdsc/portal-portail/pro/portal/page/portal/msca/private/afr/warning.png" width="16" height="16" border="0" title="Warning" alt="Warning"></span><span id="af_message::confirmation-icon"><img src="/sc/sys2/msca-mdsc/portal-portail/pro/portal/page/portal/msca/private/afr/confirmation.png" width="16" height="16" border="0" title="Confirmation" alt="Confirmation"></span><span id="af_message::error-icon"><img src="/sc/sys2/msca-mdsc/portal-portail/pro/portal/page/portal/msca/private/afr/error.png" width="16" height="16" border="0" title="Error" alt="Error"></span><span id="af_messages::error-icon"><img src="/sc/sys2/msca-mdsc/portal-portail/pro/portal/page/portal/msca/private/afr/error.png" width="16" height="16" border="0" title="Error" alt="Error"></span><span id="af_messages::confirmation-icon"><img src="/sc/sys2/msca-mdsc/portal-portail/pro/portal/page/portal/msca/private/afr/confirmation.png" width="16" height="16" border="0" title="Confirmation" alt="Confirmation"></span></span>
+<div id="afr::DlgSrvPopupCtnr">
+  <div id="afr::DlgSrvPopupCtnr::content" style="display:none"></div>
+</div>
+<DIV id="afr::UtilPopupCtnr" _pid="j_id38" _did="j_id39" style="display:none">
+  <div id="j_id38" style="display:none">
+    <div style="top:auto;right:auto;left:auto;bottom:auto;width:auto;height:auto;position:relative;" id="j_id38::content">
+      <div id="j_id39" class="af_dialog">
+        <div class="af_dialog_inactive-background" _afrPanelWindowBackground="1"></div>
+        <div class="af_dialog_inactive-background" _afrPanelWindowBackground="1"></div>
+        <div class="af_dialog_inactive-background" _afrPanelWindowBackground="1"></div>
+        <div class="af_dialog_inactive-background" _afrPanelWindowBackground="1"></div>
+        <table cellpadding="0" cellspacing="0" border="0" summary="" class="af_dialog_main">
+          <tr>
+            <td class="af_dialog_header-start" id="j_id39::_hse">&nbsp;</td>
+            <td class="af_dialog_header" id="j_id39::_hce"><table cellpadding="0" cellspacing="0" border="0" width="100%" summary="">
+                <tr>
+                  <td><div id="j_id39::_ticn" class="af_dialog_icon-region" style="display:none"></div></td>
+                  <td class="af_dialog_header-content-center" id="j_id39::tb"><div id="j_id39::_ttxt" class="af_dialog_title"></div></td>
+                </tr>
+              </table></td>
+            <td class="af_dialog_header-end" id="j_id39::_hee">&nbsp;</td>
+          </tr>
+          <tr>
+            <td class="af_dialog_content-start" id="j_id39::_cse">&nbsp;</td>
+            <td class="af_dialog_content" id="j_id39::contentContainer"></td>
+            <td class="af_dialog_content-end" id="j_id39::_cee">&nbsp;</td>
+          </tr>
+          <tr>
+            <td class="af_dialog_footer-start" id="j_id39::_fse"><div></div></td>
+            <td class="af_dialog_footer" id="j_id39::_fce"><table cellpadding="0" cellspacing="0" border="0" width="100%" summary="">
+                <tr>
+                  <td class="af_dialog_footer-content" id="j_id39::_fcc"><button type="button" id="j_id39::ok" class="af_dialog_footer-button-affirmative af_dialog_footer-button p_AFTextOnly" onclick="return false;">OK</button>
+                    <button type="button" id="j_id39::cancel" class="af_dialog_footer-button-cancel af_dialog_footer-button p_AFTextOnly" onclick="return false;">Cancel</button></td>
+                  <td align="left" valign="bottom"><div class="af_dialog_resize-icon-region"><a tabIndex="-1" class="af_dialog_resize-icon-style" id="j_id39::_ree" title="Resize"></a></div></td>
+                </tr>
+              </table></td>
+            <td class="af_dialog_footer-end" id="j_id39::_fee"><div></div></td>
+          </tr>
+        </table>
+      </div>
+    </div>
+  </div>
+</DIV>
+</div>
+<script type="text/javascript">AdfBootstrap._onLoad=function (){if (AdfPage.PAGE.__checkRichResponseDirty()) return;var isCachedPage = false;if (!isCachedPage){window.name='jtuuy02hd';};AdfAgent.AGENT.elementsAdded(document);AdfDhtmlLookAndFeel.addSkinProperties({"af|dialog-tr-open-animation-duration":"300","af|messages::summary":"af_messages_summary","AFPopupSelectorFooterStart":"AFPopupSelectorFooterStart","af|message::container":"af_message_container","AFPopupSelectorContentEnd":"AFPopupSelectorContentEnd","af|message::detail-cell":"af_message_detail-cell","AFPopupSelectorContent":"AFPopupSelectorContent","af|messages::message-group-list":"af_messages_message-group-list","af|message::component-messages-list-container":"af_message_component-messages-list-container","af|dialog::resize-ghost":"af_dialog_resize-ghost","AFPopupSelectorFooterEnd":"AFPopupSelectorFooterEnd","af|messages::intro":"af_messages_intro",".AFPopupSelector-tr-animate":"true","af|popup-tr-shadow-starting-black-percent":100,"AFPopupSelector":"AFPopupSelector",".AFWorkaround-tr-disable-property-delta-sync":"false","af|popup-tr-shadow-pixel-size":4,"af|messages::message-group-type-separator":"af_messages_message-group-type-separator","af|messages::message-group-title":"af_messages_message-group-title","af|message::message-list-component":"af_message_message-list-component","af|message::intro":"af_message_intro","af|popup-tr-shadow-offset":3,"AFPopupSelectorHeader":"AFPopupSelectorHeader","af|messages::detail":"af_messages_detail","af|message::type":"af_message_type","AFPopupSelectorHeaderStart":"AFPopupSelectorHeaderStart","af|message::detail":"af_message_detail","af|messages::header-text":"af_messages_header-text",".AFNoteWindow-tr-open-animation-duration":"200","af|message::icon-cell":"af_message_icon-cell","AFPopupSelectorContentStart":"AFPopupSelectorContentStart","AFPopupSelectorFooter":"AFPopupSelectorFooter","af|messages::message-list-page":"af_messages_message-list-page","AFPopupSelectorHeaderEnd":"AFPopupSelectorHeaderEnd",".AFNoteWindow-tr-animate":"true","af|messages::component-link":"af_messages_component-link",".AFPopupSelector-tr-open-animation-duration":"200","af|dialog-tr-animate":"true","af|message::summary":"af_message_summary"});AdfPage.PAGE.addComponents(new AdfRichDocument('document',{'title':'My Service Canada Account - Home'}),new AdfRichDialog('document::msgDlg',{'okVisible':false,'cancelVisible':false,'cancelTextAndAccessKey':'OK','modal':false,'resize':'on','title':''}),new AdfDialogServicePopupContainer('afr::DlgSrvPopupCtnr'),new AdfRichPopup('j_id38',{'contentDelivery':'immediate'}),new AdfRichDialog('j_id39',{'okVisible':false,'cancelVisible':false,'closeIconVisible':false}));AdfPage.PAGE.setDefaultMessageHandlerComponentId("document");AdfPage.PAGE.__initUserInactivityTimeout(600000);page.__setCssSelectorsUncompressed(true);AdfPage.PAGE.__setViewId('/oracle/webcenter/portalapp/pages/home.jspx');var exScripts=AdfBootstrap._extendedScripts;for (var i=0;i<exScripts.length;i++){exScripts[i]()};AdfBootstrap._extendedScripts=null;AdfPage.PAGE.__onLoad();};window.onload=AdfBootstrap._onLoad;</script><script type="text/javascript">AdfBootstrap._extendedScripts=[];</script>
+</body>
+<!--Created by Oracle ADF (ADF Faces API - 11.1.1.9.0 / ADF Faces Implementation - 11.1.1.9.0, RCF-revision: 63592 (branch: faces-1507-11.1.1.9.0-release, plugins: 1.2.3.1), Trinidad-revision: 2816 (branch: 1.2.12.9.0.release-branch, plugins: 1.2.10.3), build: adf-faces-rt_171102_1221, patch: MLR-27056561, libNum: 7306 / ADF-Controller{Oracle-BuildSystem=Linux - java - 1.6.0_35-b10, Oracle-Version=11.1.1.9.40.66.73, Oracle-Internal-Release=None, Created-By=20.10-b01 (Sun Microsystems Inc.), Oracle-Builder=user=brmohant host=slc05ynp, Oracle-Label=JDEVADF_11.1.1.9.0_GENERIC_RELEASE, Oracle-BuildTimestamp=2017-10-23 08:36:39 -0700} ADF-Model{Oracle-BuildSystem=Linux - java - 1.6.0_35-b10, Oracle-Version=11.1.1.9.40.66.73, Oracle-Internal-Release=None, Created-By=20.10-b01 (Sun Microsystems Inc.), Oracle-Builder=user=brmohant host=slc05ynp, Oracle-Label=JDEVADF_11.1.1.9.0_GENERIC_RELEASE, Oracle-BuildTimestamp=2017-10-23 08:30:21 -0700} ADF-Share{Oracle-BuildSystem=Linux - java - 1.6.0_35-b10, Oracle-Version=11.1.1.9.40.66.73, Oracle-Internal-Release=None, Created-By=20.10-b01 (Sun Microsystems Inc.), Oracle-Builder=user=brmohant host=slc05ynp, Oracle-Label=JDEVADF_11.1.1.9.0_GENERIC_RELEASE, Oracle-BuildTimestamp=2017-10-23 08:09:31 -0700}  / powered by JavaServer Faces - 1.2), accessibility (mode:null, contrast:standard, size:medium), skin:wet4-cdts.desktop (wet4-cdts)-->
+</html>
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+</head>
+
+<body>
+</body>
+</html>
