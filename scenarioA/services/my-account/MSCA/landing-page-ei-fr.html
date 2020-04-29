@@ -252,7 +252,7 @@ a.btn-blue:hover, a.btn-blue:active, a.btn-blue:focus {
         
         <!-- List group -->
         <ul class="list-group">
-          <li class="list-group-item"><a href="#a1-1">Renseignements sur votre dernière demande</a></li>
+          <li class="list-group-item"><a href="#a1-1">Vos demandes</a></li>
           <li class="list-group-item"><a href="#a1-2">Visualiser ou modifier mes renseignements personnels</a></li>
           <li class="list-group-item"><a href="#a1-3">Relevés d'emploi</a></li>
           <li class="list-group-item"><a href="#a1-4">Renseignements fiscaux</a></li>
@@ -294,10 +294,10 @@ a.btn-blue:hover, a.btn-blue:active, a.btn-blue:focus {
         <div class="panel panel-default">
           <div class="panel-body">
             <div class="mrgn-tp-md header-bg">
-              <h2 id="a1-1" class="mrgn-tp-0">Renseignements sur votre dernière demande&nbsp;</h2>
+              <h2 id="a1-1" class="mrgn-tp-0">Vos demandes&nbsp;</h2>
               <div class="brdr-bttm-fade"></div>
             </div><br />
-            <p>Quand vous choisissez Visualiser l'état de ma demande et ma correspondance (Alertez-moi), vous pouvez consulter l'état de votre demande et vos derniers messages.</p>
+            <p>Quand vous choisissez Visualiser l'état de ma demande et ma correspondance, vous pouvez consulter l'état de votre demande et vos derniers messages.</p>
 
 <p>Vous pouvez également recevoir des avis par courriel en vous inscrivant au service Alertez-moi.</p>
 
@@ -306,7 +306,8 @@ a.btn-blue:hover, a.btn-blue:active, a.btn-blue:focus {
   <div> </div>
 </div>
 <ul class="list-unstyled list-inline">
-			  <li class="mrgn-bttm-sm"><button onclick="window.location.href = '/MSCA-Prototype/scenarioA/services/my-account/MSCA/EI/latest-claim-status-fr.html';" type="button" class="btn btn-default">Visualiser l’état de ma demande et ma correspondance (Alertez-moi)</button></li>
+			  <li class="mrgn-bttm-sm"><button onclick="window.location.href = '/MSCA-Prototype/scenarioA/services/my-account/MSCA/EI/latest-claim-status-fr.html';" type="button" class="btn btn-default">Visualiser l’état de ma demande et ma correspondance</button></li>
+	<li class="mrgn-bttm-sm"><button onclick="window.location.href = '/MSCA-Prototype/scenarioA/services/my-account/MSCA/EI/alert-me-fr.html';" type="button" class="btn btn-default">S’inscrire à Alertez-moi</button></li>
             <li class="mrgn-bttm-sm"><button onclick="window.location.href = '/MSCA-Prototype/scenarioA/services/my-account/MSCA/EI/latest-claim-details-fr.html';" type="button" class="btn btn-default">Dernière demande</button></li>
             <li class="mrgn-bttm-sm"><button onclick="window.location.href = '/MSCA-Prototype/scenarioA/services/my-account/MSCA/EI/EI-payment-page-fr.html';" type="button" class="btn btn-default">Renseignements de paiements</button></li>
           </ul>
@@ -393,9 +394,16 @@ a.btn-blue:hover, a.btn-blue:active, a.btn-blue:focus {
               <div class="brdr-bttm-fade"></div>
             </div>
             <br />
-          <p><span id="pageTemplate:pt_pg_template3"><span id="pageTemplate:pt_pg_content2"><span id="pageTemplate:j_id__ctru6pc">Les   formulaires en ligne vous permettent de soumettre des renseignements   électroniquement. Cette option n'est accessible que si votre demande est   active et est restreinte à certains genres de prestations.</span></span></span></p>
+          <p>Les formulaires en ligne vous permettent de soumettre de nouveaux  renseignements au sujet de votre demande électroniquement pour&nbsp;: </p>
+          <ul>
+            <li>une absence du Canada  (vacance et autres raisons);</li>
+            <li>un cours ou un programme de  formation;</li>
+            <li>des renseignements sur  l&rsquo;autre parent aux fins des prestations parentales.</li>
+          </ul>
+          <p>Les formulaires en ligne disponibles dépendront d&rsquo;une demande active pour  certains genres de prestations.</p>
 <ul class="list-unstyled list-inline">
-			<li class="mrgn-bttm-sm"><button onclick="window.location.href = '/MSCA-Prototype/scenarioA/services/my-account/MSCA/EI/eForm/eForm-PNS-fr.html';" type="button" class="btn btn-default">Formulaires en ligne (Soumettre de nouveaux renseignements au sujet de ma demande)</button></li>
+			<li class="mrgn-bttm-sm">
+			  <button onclick="window.location.href = '/MSCA-Prototype/scenarioA/services/my-account/MSCA/EI/eForm/eForm-PNS-fr.html';" type="button" class="btn btn-default">Soumettre un formulaire en ligne</button></li>
 		  </ul>
         </div>
       </div>
