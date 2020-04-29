@@ -251,7 +251,7 @@ a.btn-blue:hover, a.btn-blue:active, a.btn-blue:focus {
         
         <!-- List group -->
         <ul class="list-group">
-          <li class="list-group-item"><a href="#a1-1">Information on your latest claim</a></li>
+          <li class="list-group-item"><a href="#a1-1">Your claims</a></li>
           <li class="list-group-item"><a href="#a1-2">View/Change my personal information</a></li>
           <li class="list-group-item"><a href="#a1-3">Records of Employment</a></li>
           <li class="list-group-item"><a href="#a1-4">Tax information</a></li>
@@ -292,18 +292,21 @@ a.btn-blue:hover, a.btn-blue:active, a.btn-blue:focus {
         <div class="panel panel-default">
           <div class="panel-body">
             <div class="mrgn-tp-md header-bg">
-              <h2 id="a1-1" class="mrgn-tp-0">Information on your latest claim&nbsp;</h2>
+              <h2 id="a1-1" class="mrgn-tp-0">Your claims&nbsp;</h2>
               <div class="brdr-bttm-fade"></div>
             </div>
             <br />
-            <p>When you select View  my status and correspondence (Alert me), you can check your latest claim&rsquo;s  status and messages.</p>
+            <p>When you select View  my status and correspondence, you can check your latest claim&rsquo;s  status and messages.</p>
 <p>You can also receive  email notifications if you register for the Alert me service.</p>
 <p>If you have an  active claim, Latest claim and Payment information show details, such as start  date, weekly benefit rate, number of weeks paid and payment details.</p>
 <div>
   <div> </div>
 </div>
 <ul class="list-unstyled list-inline">
-			  <li class="mrgn-bttm-sm"><button onclick="window.location.href = '/MSCA-Prototype/scenarioA/services/my-account/MSCA/EI/latest-claim-status.html';" type="button" class="btn btn-default">View my status and correspondence (Alert me)</button></li>
+			  <li class="mrgn-bttm-sm">
+			    <button onclick="window.location.href = '/MSCA-Prototype/scenarioA/services/my-account/MSCA/EI/latest-claim-status.html';" type="button" class="btn btn-default">View my status and correspondence</button></li>
+	<li class="mrgn-bttm-sm">
+			    <button onclick="window.location.href = '/MSCA-Prototype/scenarioA/services/my-account/MSCA/EI/alert-me.html';" type="button" class="btn btn-default">Register for Alert me</button></li>
             <li class="mrgn-bttm-sm"><button onclick="window.location.href = '/MSCA-Prototype/scenarioA/services/my-account/MSCA/EI/latest-claim-details.html';" type="button" class="btn btn-default">Latest claim</button></li>
             <li class="mrgn-bttm-sm">
               <button onclick="window.location.href = '/MSCA-Prototype/scenarioA/services/my-account/MSCA/EI/EI-payment-page.html';" type="button" class="btn btn-default">Payment information</button></li>
@@ -397,10 +400,16 @@ a.btn-blue:hover, a.btn-blue:active, a.btn-blue:focus {
               <div class="brdr-bttm-fade"></div>
             </div>
             <br />
-          <p>eForms (Provide new information regarding my claim) allow you to submit information  electronically. This option is displayed only when you have an active claim for  certain benefit types.</p>
+          <p>eForms allow you to submit new information regarding your claim electronically  for: </p>
+          <ul>
+            <li>an absence from Canada  (vacation or other reason)</li>
+            <li>a course or training program</li>
+            <li>other parent information for  parental benefits</li>
+          </ul>
+          <p>The available eForms offered will depend on having an active claim for  certain benefit types.</p>
 <ul class="list-unstyled list-inline">
 			<li class="mrgn-bttm-sm">
-			  <button onclick="window.location.href = '/MSCA-Prototype/scenarioA/services/my-account/MSCA/EI/eForm/eForm-PNS.html';" type="button" class="btn btn-default">eForms (Provide new information regarding my claim)</button></li>
+			  <button onclick="window.location.href = '/MSCA-Prototype/scenarioA/services/my-account/MSCA/EI/eForm/eForm-PNS.html';" type="button" class="btn btn-default">Submit eForms </button></li>
 		  </ul>
         </div>
       </div>
